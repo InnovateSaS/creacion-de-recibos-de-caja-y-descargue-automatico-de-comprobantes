@@ -1,0 +1,14 @@
+﻿{
+  "Name": "No existen saldos abier…(2)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "LfREafUeOky8VptCFMUGeQ",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/LfREafUeOky8VptCFMUGeQ",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-05-09T16:42:59.2318361Z",
+  "Updated": "2025-05-09T16:42:59.2318361Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

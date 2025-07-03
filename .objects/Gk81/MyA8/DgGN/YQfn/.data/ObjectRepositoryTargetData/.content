@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XbCuXMoPmEq82cVbQAwteg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" DesignTimeRectangle="8, 181, 1366, 554" DesignTimeScaleFactor="0.8999999761581421" FuzzySelectorArgument="&lt;webctrl id='JWTS_myCanvas' tag='CANVAS' type='' class='' aaname='' /&gt;" Guid="d6dd5a78-0436-4b39-8ecf-fd9f9e2bb392" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3YUYwd1dGbHc0ZnJWUXgva1FpMTNucWlFb2ZoNk9abUFYYm9OTklYWGJCcEp1N1VEaVd5dUFTanQ2a005ZmMrZU54eTRiazVKTFBKL1NpNHBTS1N3NHF6NUhkTnVDTExlMlNhMDBJTFc1QmFQcFdGVzNnOTlXWU9VN0ZncXJCNDBqM0hmdFd2bWtMWlFjTzBnblNqMUVEWGNqOGxaVjMyMm03bVpIWm54*' title='HTML5' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="85d6f5a493112ef5fa59efda823ad24e.png" xmlns="">0sGHofr_dPEKRqEPSP9SXsA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

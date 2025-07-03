@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Auxiliares adicionales",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "CN6l5yN2t0mVpE57RQ5PHQ",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/CN6l5yN2t0mVpE57RQ5PHQ",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-04-07T20:07:59.2962496Z",
+  "Updated": "2025-04-07T20:07:59.2962496Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

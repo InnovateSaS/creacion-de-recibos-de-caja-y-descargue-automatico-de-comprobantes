@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Esta sobrepagando la de…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "9WxIDYNAMEmjv5SkBSh6lQ",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/9WxIDYNAMEmjv5SkBSh6lQ",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-04-15T04:45:54.2725571Z",
+  "Updated": "2025-04-15T04:45:54.2725571Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

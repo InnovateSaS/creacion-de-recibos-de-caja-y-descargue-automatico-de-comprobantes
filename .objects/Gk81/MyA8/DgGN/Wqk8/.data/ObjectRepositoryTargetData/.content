@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4haOcUlVGkKaO0e4RdNA4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="005e995a-545e-4fce-bf8f-5927cb67942a" CvElementArea="584, 606, 83, 23" CvTextArea="600, 611, 51, 11" CvTextArgument="Refrescar" CvType="Button" DesignTimeRectangle="584, 606, 83, 23" DesignTimeScaleFactor="1" ElementType="Button" Guid="7835d384-3cbe-4cdf-b587-e8e8a7be9267" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3SXBhZS9rY0NjR014U25OQjk5N2pPNEhGOURYMHYrSUNBbG1Nb0FWazFsdDlZUitjYldjb1c3cUJtTmxGZXMrcG03TWJDckFoUUk0anR1ZmdyWVNCeUNhRkV5d2VMVmNsUXRzcVFKbEZFeEcyNmFYbXNlUnlUY3BadVpwMHp1R3ljdDdnckJSSm82RVNiOGZZWktKWDRXYjN5WnEzTEhFUVJ6YW5wSm5O*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="005e995a-545e-4fce-bf8f-5927cb67942a" CvElementArea="602, 309, 82, 20" CvTextArea="608, 314, 70, 12" CvTextArgument="Aplicar Saldo" CvType="Button" DesignTimeRectangle="602, 309, 82, 20" ElementType="Button" Guid="2f407f27-9cf3-4982-8904-f45c01e76022" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="005e995a-545e-4fce-bf8f-5927cb67942a" CvElementArea="685, 309, 97, 20" CvTextArea="691, 315, 84, 10" CvTextArgument="Desmarcar todo" CvType="Button" DesignTimeRectangle="685, 309, 97, 20" ElementType="Button" Guid="d4c4697b-019d-4a25-87a3-b5d6702d9881" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="005e995a-545e-4fce-bf8f-5927cb67942a" CvTextArea="717, 154, 45, 11" CvTextArgument="Ventanas" CvType="Text" DesignTimeRectangle="717, 154, 45, 11" ElementType="Text" Guid="292b9bb0-43b0-4dde-9df0-a286235b0bdb" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e3a76915e5cf165b95473ea36551d038.png" xmlns="">07K3qr5TIAUSd22ojhnHkxg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

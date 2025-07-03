@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-f-ZgtaR4USBMk99C5_xhA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="repuestossimonbolivar-my.sharepoint.com/:x:/p/auxiliarcontable/ETS3cck2mFhLm2F249FAi0sBKcnzPrWHeKt9QzMimLjVrQ" CVScreenId="a6fbbaf4-2cc2-455b-acbd-4c0c1c56a941" CvElementArea="869, 615, 18, 18" CvType="ArrowButton" DesignTimeRectangle="869, 615, 18, 19" DesignTimeScaleFactor="1" ElementType="ArrowButton" Guid="66d5c873-f36e-4573-b8e5-9a4fcda9b43e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BANCOLOMBIA 2025.xlsb' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a6fbbaf4-2cc2-455b-acbd-4c0c1c56a941" CvElementArea="521, 501, 324, 41" CvType="InputBox" DesignTimeRectangle="522, 494, 323, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl id='7fcaa069-0ede-4d03-a7e5-4d2f741fb764' tag='IFRAME' /&gt;&lt;webctrl aaname='newValue' tag='LABEL' type='' class='fui-Label ___5ga2cm0 fk6fouc f19n0e5 fkhj508 f1i3iumi fl43uef f6dzj5z f6juhto f1sbtcvk f1jnq6q7' check:innerText='newValue*' /&gt;" Guid="62e28113-93c8-493b-be97-1c028ed2563a" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="a6fbbaf4-2cc2-455b-acbd-4c0c1c56a941" CvElementArea="521, 418, 323, 41" CvType="InputBox" DesignTimeRectangle="522, 411, 323, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl id='7fcaa069-0ede-4d03-a7e5-4d2f741fb764' tag='IFRAME' /&gt;&lt;webctrl aaname='sheetName' tag='LABEL' type='' class='fui-Label ___5ga2cm0 fk6fouc f19n0e5 fkhj508 f1i3iumi fl43uef f6dzj5z f6juhto f1sbtcvk f1jnq6q7' check:innerText='sheetName*' /&gt;" Guid="8e492929-b952-4b92-9b8b-271112985cf5" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="a6fbbaf4-2cc2-455b-acbd-4c0c1c56a941" CvTextArea="577, 310, 41, 12" CvTextArgument="Auxiliar" CvType="Text" DesignTimeRectangle="578, 312, 8, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl id='7fcaa069-0ede-4d03-a7e5-4d2f741fb764' tag='IFRAME' /&gt;&lt;webctrl aaname='3' tag='LABEL' type='' class='fui-Label ___160oscs fk6fouc f19n0e5 fkhj508 f1i3iumi fl43uef f1g0x7ka fhxju0i f1qch9an f1cnd47f f1p9o1ba f1sil6mw' check:innerText='3' /&gt;" Guid="6427b258-18a5-409b-abfd-275ff956105c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dc109e73e60ce3a71f0f570ec33c3b3a.png" xmlns="">0cJsrA0vh2kujVlQ0LmJNOw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

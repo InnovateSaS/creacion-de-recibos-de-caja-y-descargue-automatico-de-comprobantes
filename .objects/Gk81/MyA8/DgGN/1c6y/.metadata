@@ -1,0 +1,14 @@
+﻿{
+  "Name": "225,800.00",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "1c6yAVrn40SKc13eQMrPww",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/1c6yAVrn40SKc13eQMrPww",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-04-14T20:50:31.3672166Z",
+  "Updated": "2025-04-14T20:50:31.3672166Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

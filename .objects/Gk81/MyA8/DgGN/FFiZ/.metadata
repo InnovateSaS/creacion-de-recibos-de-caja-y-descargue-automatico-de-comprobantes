@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Auxiliar ...(2)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "FFiZw-QnBE-f43EYa4vSdg",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/FFiZw-QnBE-f43EYa4vSdg",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-04-07T20:36:22.2176486Z",
+  "Updated": "2025-04-07T20:36:22.2176486Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

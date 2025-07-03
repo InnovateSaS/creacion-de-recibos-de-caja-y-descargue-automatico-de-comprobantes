@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Vencimien",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "fJTadRJHw0iGrezh2xkyYg",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/fJTadRJHw0iGrezh2xkyYg",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-03-05T14:59:09.3809101Z",
+  "Updated": "2025-03-05T14:59:09.3809101Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

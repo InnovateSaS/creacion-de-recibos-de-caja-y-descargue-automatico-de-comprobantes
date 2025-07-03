@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QBzkyLUqbESVWHj1hz239g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="m365.cloud.microsoft/launch/excel" CVScreenId="d1076666-6676-4952-b9fd-50c605930ed3" CvElementArea="715, 374, 281, 34" CvType="InputBox" DesignTimeRectangle="727, 276, 268, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='fui-Input__input r12stul0' placeholder='Buscar en mis archivos' aaname='' /&gt;" Guid="6ed17167-a31c-4130-a9d4-0179d72df20e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Excel | Microsoft 365 Copilot' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d1076666-6676-4952-b9fd-50c605930ed3" CvElementArea="603, 373, 108, 37" CvTextArea="640, 385, 57, 13" CvTextArgument="Favoritos" CvType="Button" DesignTimeRectangle="641, 281, 57, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='favorites-pivot' tag='DIV' type='' class='PillControl-module__pill-text--fake__zMW_7' aaname='Favoritos' check:innerText='Favoritos' /&gt;" Guid="ee410e5c-203a-4694-8c43-ae66285b62e0" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="6b2f9460-7559-4b7f-94d7-9418f73c9660" CvElementArea="466, 273, 130, 37" CvTextArea="503, 285, 75, 16" CvTextArgument="Compartido" CvType="Button" DesignTimeRectangle="504, 281, 77, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='shared-pivot' tag='DIV' type='' class='PillControl-module__pill-text--fake__zMW_7' aaname='Compartido' check:innerText='Compartido' /&gt;" Guid="0b23bc49-039e-4376-8bc1-e6bb0aff7f9b" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="6b2f9460-7559-4b7f-94d7-9418f73c9660" CvElementArea="263, 273, 196, 37" CvTextArea="300, 285, 141, 13" CvTextArgument="Abierto recientemente" CvType="Button" DesignTimeRectangle="302, 281, 142, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='recent-pivot' tag='DIV' type='' class='PillControl-module__pill-text--fake__zMW_7' aaname='Abierto recientemente' check:innerText='Abierto recientemente' /&gt;" Guid="c17c6384-b5de-4a60-94b9-2985997bd8ab" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="28e246ea3b2f0c71c7b03d7b37670a48.png" xmlns="">01NptRDzRPkCBfBlzEC4hKg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

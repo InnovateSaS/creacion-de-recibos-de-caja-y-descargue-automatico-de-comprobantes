@@ -1,0 +1,77 @@
+{
+  "name": "verificacionDeMovimientosBancariosEnlANube",
+  "projectId": "d9c175bc-833e-4baa-afc6-4b1285cec12e",
+  "description": "Transactional Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[3.1.0-preview]",
+    "UiPath.GSuite.Activities": "[3.2.0-preview]",
+    "UiPath.IntegrationService.Activities": "[1.15.0]",
+    "UiPath.IntelligentOCR.Activities": "[6.25.0-preview]",
+    "UiPath.Mail.Activities": "[2.2.0-preview]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.2.0-preview]",
+    "UiPath.OCR.Activities": "[3.23.0-alpha.8892146]",
+    "UiPath.OCR.Contracts": "[2.18.0-alpha.8892144]",
+    "UiPath.System.Activities": "[25.4.4]",
+    "UiPath.System.Activities.Runtime": "[25.4.4]",
+    "UiPath.UIAutomation.Activities": "[25.10.6]",
+    "UiPath.UIAutomation.Activities.Runtime": "[25.10.6]",
+    "UiPath.Vision": "[3.16.0-alpha.8863903]",
+    "UiPath.WebAPI.Activities.Runtime": "[1.21.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.157.0",
+  "projectVersion": "1.0.169",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession",
+    "robotVersion": "25.0.167"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "1d11c16d-27cb-4031-bba8-c0fae00ded40",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

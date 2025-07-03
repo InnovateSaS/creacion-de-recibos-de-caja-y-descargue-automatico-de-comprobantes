@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="veYL7tix1kOYp_s2pc4HTg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="534b064d-6c6a-43da-bba9-c53f54cd2d55" CvElementArea="772, 699, 68, 22" CvTextArea="785, 705, 42, 11" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="772, 699, 68, 22" DesignTimeScaleFactor="1" ElementType="Button" Guid="bd06b79e-5f5e-401c-be69-6c7999991f23" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3cExjUWdzQ1p1NGE5eVdUNUR0UEFpa3RYMUF2MWIwWks5a0VWRWV3MHhTSmhMT0FST2RnRjBiRHBmU2Jxc1JDOHJKL1RKMkxjMWcyWVhUcEQ2enBxazNBem9sQWxvbjBuYnJNdStXRzlZZnZWZnhhdC9lcUs0cm5rdGgrSndabUJqc0Flem9XNW1aSXFNeElEZGE5TWlpT3ZsOTZaSjRoWFJVZFJBMXZJ*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="534b064d-6c6a-43da-bba9-c53f54cd2d55" CvElementArea="840, 699, 68, 22" CvTextArea="851, 704, 48, 11" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="841, 698, 68, 22" ElementType="Button" Guid="d2d6a720-6b64-4c8c-8df7-4678e33174ea" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="534b064d-6c6a-43da-bba9-c53f54cd2d55" CvTextArea="688, 645, 56, 10" CvTextArgument="Valor COP" CvType="Text" DesignTimeRectangle="688, 645, 56, 10" ElementType="Text" Guid="7dc44555-7dfc-4303-97bb-5223ca0defdd" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="534b064d-6c6a-43da-bba9-c53f54cd2d55" CvElementArea="404, 478, 139, 22" CvTextArea="413, 484, 122, 12" CvTextArgument="Anticipo/Otros ingresos" CvType="Button" DesignTimeRectangle="404, 478, 139, 22" ElementType="Button" Guid="3286d777-5a06-4d62-9ee4-3e985c7e53d3" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8d29c448d0ddb7bb4d40d4453e1a993d.png" xmlns="">0Fg9CdxKrWEOypJpNu9mv0g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

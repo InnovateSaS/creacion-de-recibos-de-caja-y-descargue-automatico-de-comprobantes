@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-xm8xPI2tUudHE1QWk43Ew" Reference="LQi3Th_3VEK_gQHqxSrAOQ/9YsoRx0_qkOL6G-PBnLIiQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="0bbc035e-7bf0-48ee-910f-ee19b1980b57" CvTextArea="539, 353, 23, 10" CvType="Text" DesignTimeRectangle="539, 353, 23, 10" DesignTimeScaleFactor="1" ElementType="Text" Guid="8b33cd6c-ca90-4908-9973-23d0bc53d426" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3aVprSXNHZ3hvMy80NHU4UTkxQVl2L1ZTdVZwc1hsa3o5YUxxUTUrRTBqdmIyb1NxeHh0WHRzWWVmNzYxZmRNaWJPVExGbjN2TnhkWXRsbGx5TU1RblJ1UnZDNG5qeitMYWk4UWFxUE15RUJmWitTaHBiTndzclh6M2VVTXlsWHJLVVA0ZjNXRHc4N3dUbm5VbDdQcGR1QzMxcFlLL1RRb3FDRmVMcXdC*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="2">
+          <Target CVScreenId="0bbc035e-7bf0-48ee-910f-ee19b1980b57" CvTextArea="46, 353, 91, 10" CvTextArgument="[num_factura]" CvType="Text" DesignTimeRectangle="46, 353, 91, 10" ElementType="Text" Guid="2e1c2c60-9a39-4dab-a550-b7cb05892a57" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="0bbc035e-7bf0-48ee-910f-ee19b1980b57" CvTextArea="452, 338, 112, 12" CvTextArgument="Pronto pago a aplicar" CvType="Text" DesignTimeRectangle="452, 338, 112, 12" ElementType="Text" Guid="8d5bcfbb-804f-434c-89d0-7e9c4da2ca01" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dbe049ac97e9f567660834f241013b88.png" xmlns="">0xYm3vFzwJ0qZKnHlerecvA</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="num_factura" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cualquier grupo de pala…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jU9BKyZaOUeO8CD4EU5yvA",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/jU9BKyZaOUeO8CD4EU5yvA",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-03-05T15:03:23.2197485Z",
+  "Updated": "2025-03-05T15:03:23.2197485Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

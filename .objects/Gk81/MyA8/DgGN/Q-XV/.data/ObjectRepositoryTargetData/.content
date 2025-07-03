@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tCPBlm-bXUGL8z8F6eYxPA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="df583540-95ce-4ed5-a510-01e7c516cf89" CvElementArea="770, 528, 75, 23" CvTextArea="799, 534, 17, 11" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="770, 528, 75, 23" DesignTimeScaleFactor="1" ElementType="Button" Guid="1fee695e-6600-4b53-84b2-3513fb95ab57" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3WDdja1RObEFrTjR5bmVtNC91ODVtT0lCZlM1MVNsV3NmM2lObEFRSUhoK3RzZFZjWTExS2JYQXhXVjMvZjIxdXgvMGxZRzRpUjJpTWpTTC9hRFlmOExXSzJvWDdSeStZTko5OEoybGJ0QWxvbnNZYUVXdXN5ZjgrMG8vZE5zQ3cwZ2ROMTZIVWZrQTJLMTU1MXdQbm1DOHRSU2lEWWVTY2NrZEVRdjMv*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="df583540-95ce-4ed5-a510-01e7c516cf89" CvElementArea="559, 461, 36, 36" CvType="Icon" DesignTimeRectangle="557, 459, 40, 40" ElementType="Icon" Guid="e60a035f-e8b9-421b-bbec-67fc37866160" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFcSURBVFhH7ZI7bsMwEER1ldw7J3GRxgdImTKFixxDmYFMwCDI/csWYA3wGnJJj565rAfPWTCbNyv497lRmNqC14+NwtQVpLkvXEcKLdYVpLlvXEcKLdYUbPZ+7xRarCnY7N3uFFrMF3y01woWWsQtyfT2GkUWcUsiI3uNIou4IZGZvUaBRdwQjGSvUWARp4PR7DWSFnE6kIm9Zdl4XMtaxMlAJvaGBUnCIk46I7y9acGERZxyRnh704IkaBGnHBHsEbFg0CJOOCLYI2JBErCIE8Yo9ohaMGAR08Yo9ohakDgtYtoQgz1iKui0iElDDPaIqSBxWMSkEqM9Yi7osIgpJUZ7xFyQGC1iSojDnhujRUwIcdgLYbCIiUkC9lx/MTFYxO4kAXvugkSxiN1B9nx7PYpF7Ayy99vrESxipwu/5ILlnyfD3xxYxGoXfgmHX8HAIlaPnbNgNgcvuK7/IK5hPwQIw8AAAAAASUVORK5CYII=" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="df583540-95ce-4ed5-a510-01e7c516cf89" CvTextArea="601, 474, 228, 13" CvTextArgument="No existen saldos abiertos para este tercero." CvType="Text" DesignTimeRectangle="601, 474, 228, 13" ElementType="Text" Guid="19523b49-1178-423b-a038-0e0378f5e3c5" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="6" Y="-6" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="0de4e005007dc7fbd4e8b57dd4cda296.png" xmlns="">0juccN1giJEm9ZOV5M2L5fg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

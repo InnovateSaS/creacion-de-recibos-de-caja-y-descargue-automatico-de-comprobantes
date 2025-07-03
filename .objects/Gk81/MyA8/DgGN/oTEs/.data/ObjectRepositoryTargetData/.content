@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="otshLZG5GkenU58aqOpYqA" Reference="LQi3Th_3VEK_gQHqxSrAOQ/oTEsePPtT0epmkwpcXe2AA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="d5f8f3d7-3455-4eae-b43b-ba17158ce8e8" CvTextArea="402, 353, 24, 10" CvTextArgument="0.00" CvType="Text" DesignTimeRectangle="402, 353, 24, 10" DesignTimeScaleFactor="1" ElementType="Text" Guid="c7a3715e-6bae-4c14-8317-152d7fa26fc6" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3TVVGWHZZcUFHMTVNSXk5MHNuTDZOcnBIM053RWlad1l1RHErNXlBdjRESnhmSm5uVHlUQjBJRG10VDRibDBQZmhMblN3dG1TWWNvRDB4NlBVM3BOSkIya3YvNWNnOFFBQVQ0RCszdFI0NWFqcjBkTGhUZzBydFZjK0xGM2VJOG83WXRUbEpPYlJZMlhCbkpFOW8rcU52WG9YTzd4TjROR1BnbHV1bjIy*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="3">
+          <Target CVScreenId="d5f8f3d7-3455-4eae-b43b-ba17158ce8e8" CvTextArea="380, 338, 47, 12" CvTextArgument="A aplicar" CvType="Text" DesignTimeRectangle="380, 338, 47, 12" ElementType="Text" Guid="8f65639a-5a6a-4f03-a04f-4a0630317b07" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="d5f8f3d7-3455-4eae-b43b-ba17158ce8e8" CvElementArea="602, 309, 82, 20" CvTextArea="608, 314, 70, 12" CvTextArgument="Aplicar Saldo" CvType="Button" DesignTimeRectangle="602, 309, 82, 20" ElementType="Button" Guid="50727fb7-d69d-4134-8b9e-6bc149e7d8e1" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="d5f8f3d7-3455-4eae-b43b-ba17158ce8e8" CvElementArea="685, 309, 97, 20" CvTextArea="691, 315, 84, 10" CvTextArgument="Desmarcar todo" CvType="Button" DesignTimeRectangle="685, 309, 97, 20" ElementType="Button" Guid="c9994d8c-8456-4def-9218-6f5eb266b79a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4bb564cf84f437b5d1c85c03145ed1fd.png" xmlns="">0xXEbKOgtrUq_ccnVqD2beQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

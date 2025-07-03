@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vtOn0GIdFU-RfyfRP_l16w" Reference="LQi3Th_3VEK_gQHqxSrAOQ/TNZYmQ91s0atzqLNZTvcqA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="ca487700-b057-4bec-aab1-0515727e6da8" CvTextArea="338, 328, 42, 10" CvTextArgument="[data_facturas.Rows(CurrentItem - 1)(&quot;valor_pagado&quot;).ToString()]" CvType="Text" DesignTimeRectangle="338, 328, 42, 10" DesignTimeScaleFactor="1" ElementType="Text" Guid="70445a4b-a187-4dd9-a02e-df213f01c533" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3dG5BbmYxQXM3TFp5Z1htV0RPdXM4NkdkU1RUU256SDR2YUh6SU5KNnVDSXh1eVRDeUtmV3E3QXBERmUzRk9YVXNRTko2bUh5aXJCLzY5SzcwVkIxYmZ0V2NsZFBIRStjTmhHNUEwVHIvcEFZWUZYSHF5R1Nya2U4TVBGWEpTTmFvbE9BWlRXeHZGV2pjNmpHZkZGQk5tS0FlYXRJSWE0V1JIMXhwM0Vq*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="2">
+          <Target CVScreenId="ca487700-b057-4bec-aab1-0515727e6da8" CvTextArea="245, 328, 42, 10" CvTextArgument="[CDec(data_facturas.Rows(CurrentItem - 1)(&quot;valor_inicial&quot;)).ToString(&quot;#,0.00&quot;)]" CvType="Text" DesignTimeRectangle="245, 328, 41, 10" ElementType="Text" Guid="8fba58ba-a882-4497-8817-f3b552aa8d72" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="ca487700-b057-4bec-aab1-0515727e6da8" CvTextArea="42, 327, 81, 10" CvTextArgument="[num_factura]" CvType="Text" DesignTimeRectangle="42, 328, 81, 9" ElementType="Text" Guid="ba79b137-e83f-4cb8-b45f-365b31694156" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d56b9d21a31b34c01ccd4008a68cc475.png" xmlns="">0bovnJCWjMEiHqP9tXSvKLA</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="num_factura" />
+    </scg:List>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

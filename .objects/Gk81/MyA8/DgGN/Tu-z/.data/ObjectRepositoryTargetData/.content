@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IUnZ2Vq0pkiGxeaEClTl6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="f65c4b3d-dc33-493f-931d-6cc71089ab3a" CvElementArea="708, 528, 75, 23" CvTextArea="736, 534, 17, 11" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="708, 528, 75, 22" DesignTimeScaleFactor="1" ElementType="Button" Guid="ef8923db-3c4b-4a74-8440-25c6ef7f4d64" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3ODh1WkRmVkJWcHFSYzJGYVJWYlZxR2lzTlNKaWRzVnNOa2c4SHFROVdhYWNjUEREbnpRcFAyYUJoMUdRWU9CZXFTcjh4Z210MkN0Ry90K24zM3h2ZW9ueU9rL0VaNTJvTHN3ak1SSWdLeER0TzhsQXk4YXY5OWtaeUdOcDAyNzNhR2F5OFJ4b0FCS2V0T3g5N0hoMWlObHIzZ2FnRE12aGFMWG5aYUhP*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f65c4b3d-dc33-493f-931d-6cc71089ab3a" CvElementArea="791, 528, 75, 23" CvTextArea="820, 534, 16, 11" CvTextArgument="No" CvType="Button" DesignTimeRectangle="791, 528, 75, 23" ElementType="Button" Guid="080dd24f-14a5-4e19-8e94-05ec4112df26" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="f65c4b3d-dc33-493f-931d-6cc71089ab3a" CvTextArea="577, 474, 133, 11" CvTextArgument="Existen ventanas abiertas." CvType="Text" DesignTimeRectangle="577, 474, 133, 11" ElementType="Text" Guid="757b0f04-7afb-42bd-991c-19d35758fe84" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="f65c4b3d-dc33-493f-931d-6cc71089ab3a" CvTextArea="712, 473, 139, 14" CvTextArgument="Desea cerrar la aplicación.?" CvType="Text" DesignTimeRectangle="712, 473, 139, 14" ElementType="Text" Guid="5713725a-3ed4-443f-b778-4843e04eb9d1" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="87d4ed41438ff1e770a294e2bc1aba9a.png" xmlns="">0CdCgr-vjM0O3rJiU3BJ9Ig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

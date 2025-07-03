@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="CpvX5caN-kqLj1N8KDtLKg" Reference="Jb03gghlN0a80WnnYrrLmg/CsM4u3chCk-Mru2Y_8nvCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="1358, -8, 1382, 744" BrowserType="Chrome" ContentHash="R14BE4K7Jk2NhF7PN2n2sA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADkSURBVDhPY0AGiovT3gPxf2zY+EgjNvweqhUCsGmEYSyawRiqFQKwaYRhbJpBmEGgxvE9EP/HhwXrnLFqBmGQAVg1oWPBMDOsLoMbULl1yn8QyFrb8d92aiqY3bFvAcKQQGP8BoDww/fPwfjwvQtgGlmOKAN85haCbQYBEBtZjigDopfWQLX/B7OR5TjsFFD4MAw3QL7FF+58mBdAYjB5ggZMO7YGbLNeTyTcK8iBSNAAQhifAQQTkkC5/X8ePen/EjHmGBiaiCEApAgXFnLVJGwANgWEMFQrBAAF3qMrwI/N3wMAWZLoJAon4YQAAAAASUVORK5CYII=" Reference="Jb03gghlN0a80WnnYrrLmg/CsM4u3chCk-Mru2Y_8nvCA" Selector="&lt;html app='chrome.exe' title='BANCOLOMBIA 2025.xlsb' /&gt;" Url="[urlExcel.ToString()]" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="7301141379b477de5789f452cb2e0c8f.jpg" xmlns="">7301141379b477de5789f452cb2e0c8f.jpg</imageRef>
+    </TargetApp>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="urlExcel" />
+    </scg:List>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DS8zFtnimkiXmUK16hm7pA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="9ccbb6c0-c461-4ed7-ba37-1d020d184a28" CvElementArea="19, 691, 172, 38" CvTextArea="58, 704, 34, 13" CvTextArgument="Logoff" CvType="Button" DesignTimeRectangle="20, 691, 171, 38" DesignTimeScaleFactor="1" ElementType="Button" Guid="d866128b-09b9-49ce-a6cf-69928c2a481b" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3ODh1WkRmVkJWcHFSYzJGYVJWYlZxR2lzTlNKaWRzVnNOa2c4SHFROVdhYWNjUEREbnpRcFAyYUJoMUdRWU9CZXFTcjh4Z210MkN0Ry90K24zM3h2ZW9ueU9rL0VaNTJvTHN3ak1SSWdLeER0TzhsQXk4YXY5OWtaeUdOcDAyNzNhR2F5OFJ4b0FCS2V0T3g5N0hoMWlObHIzZ2FnRE12aGFMWG5aYUhP*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9ccbb6c0-c461-4ed7-ba37-1d020d184a28" CvElementArea="17, 652, 173, 38" CvTextArea="57, 671, 102, 13" CvTextArgument="ActDocts_MuellesSb" CvType="Button" DesignTimeRectangle="17, 651, 174, 38" ElementType="Button" Guid="59a4b8a1-bca7-4284-b231-9f28fed800d1" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="9ccbb6c0-c461-4ed7-ba37-1d020d184a28" CvElementArea="18, 612, 172, 38" CvTextArea="58, 631, 92, 13" CvTextArgument="SFiscal_MuellesSB" CvType="Button" DesignTimeRectangle="19, 611, 172, 38" ElementType="Button" Guid="1fb1c300-cb81-418f-ada4-d4ba09285056" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="9ccbb6c0-c461-4ed7-ba37-1d020d184a28" CvElementArea="17, 572, 173, 37" CvTextArea="58, 591, 102, 13" CvTextArgument="Rebuilder_MuellesSB" CvType="Button" DesignTimeRectangle="17, 572, 174, 38" ElementType="Button" Guid="f32c2c3b-cce9-4d8e-8c78-ceeb402f99a3" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="97e76b55ddc76900bd560b8403188428.png" xmlns="">0eHAVvdS1K02VaN835uHXQg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

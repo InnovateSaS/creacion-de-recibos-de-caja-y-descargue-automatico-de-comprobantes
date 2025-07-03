@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Crear nuevo",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "6hhMB-0rYUaLgi291qp_tg",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/6hhMB-0rYUaLgi291qp_tg",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/m0FX3yHztUmb4D0U44lHBQ",
+  "Created": "2025-05-20T18:44:44.5476392Z",
+  "Updated": "2025-05-20T18:44:44.5476392Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

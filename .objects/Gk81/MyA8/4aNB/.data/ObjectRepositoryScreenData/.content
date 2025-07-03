@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="NkZXOflmE0mFGaCbswY64Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3TXBqY2ZaalpqMDN2cUhVR2w2WDF3Q1VrVzRzd0JwcWhLaW1sb2xxQ3BTaDRWTmRSYTNYeFR0NlJpckZJOWlWeTRKUnhmb3hpZHIzN3ovcC9ITmpDWThkQndVWEF6bGV4Zk5xbkRsaGwwN3ducmdjRzRzSmZ4QTlHaHllVEpja0JQczFCMmZDTk55WEhjaXlHNERnNWp0eVlnVVh0cmltbHRub2dkRXpu*' title='HTML5' /&gt;" Url="siesaerp01app20.siesacloud.com/software/html5.html" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

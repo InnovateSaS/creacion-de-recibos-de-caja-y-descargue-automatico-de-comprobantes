@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2UmgTNGw4EKvWtSnMzEFcw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="ba510489-b61f-434f-887d-bc314209713b" CvElementArea="29, 351, 14, 14" CvType="CheckBox" DesignTimeRectangle="29, 351, 14, 14" DesignTimeScaleFactor="1" ElementType="CheckBox" Guid="f053e025-4b4d-4061-8ba7-7c14a871ae4b" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3OEExcGFhSDJPV1U0bHd6OFJzZko2aDUrWGt0azZRODVrcEdZdTVhNE1HUDU0UVNaakczeU5wbGZxeDl4WFFmV3VJSjYzem1GaUZxYUdBTzRrYk9LQXJPZGNPSDZ6ekNnZWRZSDRsd2J6aVdJNEN1Wng1UG1WZ0V5TmdaVEhXSVpoell5SGMwQlFES294MDJKNHJwWlc5cUlBcjdQbHN5cWRGZnZhMDRN*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ba510489-b61f-434f-887d-bc314209713b" CvTextArea="45, 353, 93, 10" CvTextArgument="[num_factura]" CvType="Text" DesignTimeRectangle="45, 353, 93, 10" ElementType="Text" Guid="527912f0-6dfa-4963-9bbd-c79656a8b322" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="-7" Y="-8" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="75cdecbd73ceb8f1de352789bc51b57b.png" xmlns="">02unm1jhsHUW73l_FE_Tbuw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="num_factura" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

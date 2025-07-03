@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Automatizar",
+  "Type": "Element",
+  "Id": "R-0fToIgOU-r5agxcue1ZQ",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/R-0fToIgOU-r5agxcue1ZQ",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/6NXqBuG6QEeRxGKbJGLKNw",
+  "Created": "2025-05-29T20:52:32.9893068Z",
+  "Updated": "2025-05-29T20:52:32.9893068Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

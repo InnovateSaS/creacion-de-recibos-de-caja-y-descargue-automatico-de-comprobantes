@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="THHj9yfCKEivTHa7Nclp6Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="repuestossimonbolivar-my.sharepoint.com/:x:/p/auxiliarcontable/ETS3cck2mFhLm2F249FAi0sBKcnzPrWHeKt9QzMimLjVrQ" CVScreenId="eb616c3d-350b-488c-aa47-3284687b117c" CvTextArea="700, 186, 79, 13" CvTextArgument="Automatizar" CvType="Text" DesignTimeRectangle="698, 178, 84, 29" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl parentid='Automate' tag='SPAN' type='' class='ms-Button-flexContainer flexContainer-165' aaname='' check:innerText='Automatizar' /&gt;" Guid="362567cf-d946-49a6-bb82-931897b7fc87" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BANCOLOMBIA 2025.xlsb' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="eb616c3d-350b-488c-aa47-3284687b117c" CvTextArea="647, 186, 32, 13" CvTextArgument="Vista" CvType="Text" DesignTimeRectangle="648, 186, 30, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl id='id__26' tag='SPAN' type='' class='ms-Button-label pivot-header-label label-168' aaname='Vista' check:innerText='Vista' /&gt;" Guid="ffd36dbf-38f2-4674-8af6-f31801a8c329" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="eb616c3d-350b-488c-aa47-3284687b117c" CvTextArea="581, 186, 45, 13" CvTextArgument="Revisar" CvType="Text" DesignTimeRectangle="582, 186, 43, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl id='id__23' tag='SPAN' type='' class='ms-Button-label pivot-header-label label-168' aaname='Revisar' check:innerText='Revisar' /&gt;" Guid="24fced45-915b-4f0a-a4c1-f5f3928c72cd" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="eb616c3d-350b-488c-aa47-3284687b117c" CvTextArea="800, 186, 41, 16" CvTextArgument="Ayuda" CvType="Text" DesignTimeRectangle="802, 186, 39, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl id='id__32' tag='SPAN' type='' class='ms-Button-label pivot-header-label label-168' aaname='Ayuda' check:innerText='Ayuda' /&gt;" Guid="65c07556-e408-4323-965c-dfa82ffc9c7f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="28d6217d5d684dd94ae788198fcb7e39.png" xmlns="">0SaOSbMRguk2LavM1Ydv7wA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

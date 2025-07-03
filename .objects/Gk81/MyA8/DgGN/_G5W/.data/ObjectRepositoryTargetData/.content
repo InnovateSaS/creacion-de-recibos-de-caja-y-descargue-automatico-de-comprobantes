@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Mn5focg7hU6ASEgo1DwLGw" Reference="LQi3Th_3VEK_gQHqxSrAOQ/_G5We2Yy8kCXEgGZ6_GL6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="3b140757-cb4e-4189-8832-a0387d80a6a2" CvTextArea="539, 353, 23, 10" CvTextArgument="0.00" CvType="Text" DesignTimeRectangle="539, 353, 23, 10" DesignTimeScaleFactor="1" ElementType="Text" Guid="f8eec523-9f1a-4069-bd49-961bf1c40e2e" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3aVprSXNHZ3hvMy80NHU4UTkxQVl2L1ZTdVZwc1hsa3o5YUxxUTUrRTBqdmIyb1NxeHh0WHRzWWVmNzYxZmRNaWJPVExGbjN2TnhkWXRsbGx5TU1RblJ1UnZDNG5qeitMYWk4UWFxUE15RUJmWitTaHBiTndzclh6M2VVTXlsWHJLVVA0ZjNXRHc4N3dUbm5VbDdQcGR1QzMxcFlLL1RRb3FDRmVMcXdC*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="2">
+          <Target CVScreenId="3b140757-cb4e-4189-8832-a0387d80a6a2" CvTextArea="46, 353, 91, 10" CvTextArgument="[num_factura]" CvType="Text" DesignTimeRectangle="46, 353, 91, 10" ElementType="Text" Guid="d3ae8f6d-12d9-4f17-ae75-fbf88ed54406" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="3b140757-cb4e-4189-8832-a0387d80a6a2" CvTextArea="452, 338, 112, 12" CvTextArgument="Pronto pago a aplicar" CvType="Text" DesignTimeRectangle="452, 338, 112, 12" ElementType="Text" Guid="137def78-de71-4ad4-ac27-d6d689b15b5e" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="51530d00e6d48af1bd5ad25780c31cf9.png" xmlns="">0MIgjdG6SmkWAgdwMYSfgIw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="num_factura" />
+    </scg:List>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

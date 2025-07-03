@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oqV8ycZdIUyLVogBs8kSxQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="repuestossimonbolivar-my.sharepoint.com/:x:/p/auxiliarcontable/ETS3cck2mFhLm2F249FAi0sBKcnzPrWHeKt9QzMimLjVrQ" CVScreenId="0fcacc38-b31e-4152-8ad3-1304da810fa7" CvTextArea="182, 230, 40, 14" CvTextArgument="protect" CvType="Text" DesignTimeRectangle="160, 224, 140, 22" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl parentid='1' tag='SPAN' type='' class='ms-Button-flexContainer flexContainer-568' aaname='' check:innerText='protect' /&gt;" Guid="74a6f1e4-8a75-43ac-b502-d3cda113b42b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BANCOLOMBIA 2025.xlsb' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0fcacc38-b31e-4152-8ad3-1304da810fa7" CvTextArea="699, 186, 81, 13" CvTextArgument="Automatizar" CvType="Text" DesignTimeRectangle="701, 186, 78, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl id='id__29' tag='SPAN' type='' class='ms-Button-label pivot-header-label label-578' aaname='Automatizar' check:innerText='Automatizar' /&gt;" Guid="20d2ebaa-17cd-4ec7-a102-cce7f6fc98e0" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="0fcacc38-b31e-4152-8ad3-1304da810fa7" CvTextArea="647, 186, 32, 13" CvTextArgument="Vista" CvType="Text" DesignTimeRectangle="648, 186, 30, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl id='id__26' tag='SPAN' type='' class='ms-Button-label pivot-header-label label-168' aaname='Vista' check:innerText='Vista' /&gt;" Guid="944e2e61-9b9b-4ca2-9988-eebf593063aa" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="317497c651c068e5023d8efa07b92caf.png" xmlns="">0Yqhztz2VDEuZOh8M7G1m3g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

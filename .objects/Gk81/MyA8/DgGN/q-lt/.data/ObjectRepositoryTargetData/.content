@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iAYR3wccc0iukBtlG4y81Q" Reference="LQi3Th_3VEK_gQHqxSrAOQ/q-ltNKZunkesWJDdUzYWgw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="5484538d-0cdc-4490-b566-e34910356d52" CvElementArea="471, 302, 101, 22" CvType="InputBox" DesignTimeRectangle="471, 302, 101, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="e605900a-dfe4-40cf-abaa-e4a0716e32ce" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3UlJka0RSM1Q4NUFGalpCMHdnNmsyR3VFSFFxdWRYTm9mYms5MWxIQmZOSkQvQmh3Z2hML0Z1TXZSbXhwQ0JBeDZSR3cvMWJwUWF4MmRQeVZUS3Q3M1F3WHQ2M3h4Sk9mbVJxZ0NsOXIrS1dVSUZHa1h5MjBGazVCUGk0OWVJK21HaEZwZG0xZjNWOThsMEMxNDMrTk1aSU1UWXd6Yk4rVWdZNi9mUWVO*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5484538d-0cdc-4490-b566-e34910356d52" CvTextArea="433, 307, 38, 12" CvTextArgument="Fecha:" CvType="Text" DesignTimeRectangle="433, 308, 38, 11" ElementType="Text" Guid="e882afb0-2ea6-482f-a63c-ca3738fb7347" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="9" Y="12" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a64643173608912d488c24376f9aebaf.png" xmlns="">03rjFpUDIPU2rXv1UjpHdlw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F-CKYyJDnk2sPF_ZMe26wQ" Reference="LQi3Th_3VEK_gQHqxSrAOQ/fJTadRJHw0iGrezh2xkyYg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="51bcfc43-1976-420e-b5c2-9a670ff1b6fc" CvElementArea="668, 382, 91, 22" CvTextArea="675, 387, 77, 14" CvTextArgument="Aplicar Saldo" CvType="Button" DesignTimeRectangle="668, 382, 91, 22" DesignTimeScaleFactor="1" ElementType="Button" Guid="0a2aadfe-b0ae-4634-99a2-b010ce5e8375" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3SVp3WklxZ1d3QlNOVFFMdWQ2elNYZVpYOG0zdldHSUJ0TnpzS1dCZlc1RjkrZjZFTGVsMGI2S2pBbGp6cTFERWFYdXhZWWtLVWhUa3ltU1VudlJrM2t0S1ZvYU5ZVkZ4R1RjUE5IM2dneCtNMkhVNWFmZVh6SWJiM2NqdXA0OWlCeE5VeHVFQjQrUm9scjc2TDg4TUxQeStXZHhpdmtPckZoNHAvNUFW*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="51bcfc43-1976-420e-b5c2-9a670ff1b6fc" CvElementArea="760, 382, 108, 23" CvTextArea="767, 387, 93, 12" CvTextArgument="Desmarcar todo" CvType="Button" DesignTimeRectangle="760, 382, 108, 23" ElementType="Button" Guid="5f4d5f96-4a68-45e0-b500-4c176db8d408" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="51bcfc43-1976-420e-b5c2-9a670ff1b6fc" CvTextArea="469, 388, 66, 14" CvTextArgument="Por aplicar:" CvType="Text" DesignTimeRectangle="469, 388, 67, 13" ElementType="Text" Guid="95f0ee44-9d6d-4111-a082-28a54b33710a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="784c3747-3842-4186-8820-4998535a517e" CvTextArea="537, 355, 201, 14" CvTextArgument="Controlar valor en medios de pago" CvType="Text" DesignTimeRectangle="537, 355, 201, 14" ElementType="Text" Guid="d5b05b6b-7c09-4bae-a2aa-ed3930a5699a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0af30843e5d86e0432c39934392ad50e.png" xmlns="">0BnsHpC08EE2_dScLNzdaKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

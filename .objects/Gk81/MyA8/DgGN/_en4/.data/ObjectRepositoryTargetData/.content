@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lwF1mCwUoUCpZORKWIjQtA" Reference="LQi3Th_3VEK_gQHqxSrAOQ/_en4QqV1P0uoBpq2bIWyZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="ab679b91-2f90-4ff8-95ed-fe25235f59fe" CvElementArea="470, 326, 102, 22" CvType="InputBox" DesignTimeRectangle="470, 326, 102, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="4174b20f-c977-4ea8-85d6-6bf74d95e937" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3SE55eVVRUCtFWFBKeituWHRyT0lOaFdhVStPSVRlODhURmNvbSs1THg0RjdUNEpCc0tsM0VnN3NJVkZEUjk2Ymk4L1VBam5pdldFR2tUYjBrN3dONWpUME5pbzVXK253WDR2RGgrcU5zUUdGUW0zQVVFL0N1b1dpUXFzWkFQSTViZEhTeEYzVzcvK0g4dXBBbDhlVnZ5enlxdzZEYUNnNU11bVlVd2pk*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ab679b91-2f90-4ff8-95ed-fe25235f59fe" CvTextArea="383, 331, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="383, 331, 88, 12" ElementType="Text" Guid="aef367a4-2955-4a2a-99ab-8acf3f67153b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="27" Y="-12" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="dc3a9236f852afdbcc8ea97ed05b50e0.png" xmlns="">0aQtTGWkzaEeJ25SEoX8QnA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

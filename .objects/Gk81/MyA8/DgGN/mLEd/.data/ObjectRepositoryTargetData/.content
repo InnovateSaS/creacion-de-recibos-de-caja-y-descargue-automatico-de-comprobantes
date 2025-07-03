@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DfM3SJhsVE-kTGUBqMVDlQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="190e77e7-b9f3-4f5a-9067-b8d687bbdd4d" CvElementArea="423, 259, 92, 20" CvType="InputBox" DesignTimeRectangle="423, 259, 92, 20" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="8d433bd5-1cbc-4bd0-8986-0933a646af86" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3OEExcGFhSDJPV1U0bHd6OFJzZko2aDUrWGt0azZRODVrcEdZdTVhNE1HUDU0UVNaakczeU5wbGZxeDl4WFFmV3VJSjYzem1GaUZxYUdBTzRrYk9LQXJPZGNPSDZ6ekNnZWRZSDRsd2J6aVdJNEN1Wng1UG1WZ0V5TmdaVEhXSVpoell5SGMwQlFES294MDJKNHJwWlc5cUlBcjdQbHN5cWRGZnZhMDRN*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="190e77e7-b9f3-4f5a-9067-b8d687bbdd4d" CvTextArea="345, 264, 80, 11" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 264, 79, 11" ElementType="Text" Guid="c96a34cb-f668-4db7-b5fa-a33de5b7f2b1" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="9" Y="-10" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="8f86daf2b4a43ecea816f1668e249b6b.png" xmlns="">0JqgFzDsPnE6gpnxse5a0Zg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

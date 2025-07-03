@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GJf7jCKw5E6Insaeb7NyzA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="repuestossimonbolivar-my.sharepoint.com/:x:/r/personal/auxiliarcontable_repuestossimonbolivar_com/_layouts/15/Doc.aspx" DesignTimeRectangle="496, 275, 390, 367" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='BANCOLOMBIA 2025.xlsb' role='document' /&gt;&lt;ctrl name='Office on the web Frame' role='document' /&gt;&lt;ctrl name='Excel' role='document' /&gt;&lt;ctrl name='Office Scripts' role='document' /&gt;&lt;ctrl role='document' /&gt;" FuzzySelectorArgument="&lt;ctrl name='BANCOLOMBIA 2025.xlsb' role='document' /&gt;&lt;ctrl name='Office on the web Frame' role='document' /&gt;&lt;ctrl name='Excel' role='document' /&gt;&lt;ctrl name='Office Scripts' role='document' /&gt;&lt;ctrl role='document' automationid='' check:text='https://fa000000043.mro1cdnstorage.public.cdn.office.net/mro1cdnstorage/033f92d3-bc6d-439a-858a-a17acf70360a/sdx/fa000000043/1.0.2505.1001/en-us_web/dialog.html' /&gt;" Guid="760b87c5-3915-4ff8-8dce-2651e06b9656" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='BANCOLOMBIA 2025.xlsb - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="14660e1e12231ba67b60b6b753bb852b.png" xmlns="">0LONM6K3HkkW_JcL0eqwQgQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

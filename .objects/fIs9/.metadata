@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome BANCOLOMBIA 2025.xlsb(1)",
+  "Type": "App",
+  "Id": "fIs9_S2eBki0g5t16iwmxA",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/fIs9_S2eBki0g5t16iwmxA",
+  "Created": "2025-03-22T02:37:18.1195367Z",
+  "Updated": "2025-03-22T02:37:18.1195367Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

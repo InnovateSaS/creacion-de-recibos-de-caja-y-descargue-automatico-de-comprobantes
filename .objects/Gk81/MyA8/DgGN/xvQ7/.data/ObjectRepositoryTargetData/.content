@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lfkS4VhuDkCKVxj8OuB4HA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="f8531c41-a96f-42a7-9086-f1c4d90bfa71" CvElementArea="643, 512, 75, 23" CvTextArea="671, 518, 17, 11" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="643, 512, 74, 23" DesignTimeScaleFactor="1" ElementType="Button" Guid="86815e99-8316-405b-8580-3b8c29cf3295" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3ODh1WkRmVkJWcHFSYzJGYVJWYlZxR2lzTlNKaWRzVnNOa2c4SHFROVdhYWNjUEREbnpRcFAyYUJoMUdRWU9CZXFTcjh4Z210MkN0Ry90K24zM3h2ZW9ueU9rL0VaNTJvTHN3ak1SSWdLeER0TzhsQXk4YXY5OWtaeUdOcDAyNzNhR2F5OFJ4b0FCS2V0T3g5N0hoMWlObHIzZ2FnRE12aGFMWG5aYUhP*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f8531c41-a96f-42a7-9086-f1c4d90bfa71" CvElementArea="727, 512, 75, 23" CvTextArea="756, 518, 16, 11" CvTextArgument="No" CvType="Button" DesignTimeRectangle="727, 512, 75, 23" ElementType="Button" Guid="06572e83-4826-478e-ae6c-5df57c30edd8" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="f8531c41-a96f-42a7-9086-f1c4d90bfa71" CvTextArea="582, 468, 203, 13" CvTextArgument="Do you want to quit your session now?" CvType="Text" DesignTimeRectangle="582, 468, 203, 13" ElementType="Text" Guid="0c08b022-50ae-4339-90b9-4dba839944b4" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5603949c768c4a03789d3c923bd12ca9.png" xmlns="">0t6jueFiJsE25uIelA0f4dw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

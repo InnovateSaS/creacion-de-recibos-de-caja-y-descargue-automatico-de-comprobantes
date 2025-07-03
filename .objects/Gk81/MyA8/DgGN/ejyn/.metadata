@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Button 'CloseButton'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ejynsXzeckyPCXQ_RO_-xw",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/ejynsXzeckyPCXQ_RO_-xw",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-06-05T19:44:13.0528786Z",
+  "Updated": "2025-06-05T19:44:13.0528786Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

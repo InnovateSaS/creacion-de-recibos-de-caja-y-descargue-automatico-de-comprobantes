@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jQVdHk9dwUuou3VT6iyzvQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="b3f92aa0-725f-4e2c-a3e1-66580ae2b4dd" CvElementArea="27, 611, 12, 12" CvType="CheckBox" DesignTimeRectangle="27, 611, 13, 12" ElementType="CheckBox" Guid="dddd8584-950c-45e1-83ac-5c6eece2fa35" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3Q3pUMDJOV0Y1TFNvb3pJYXZ6QkFwM3RMZlM2ZEhmS2JZQjNCK080Vm9zVEhQUW4yU3lYV0N3UllkSFVVNGVVTHRlRzFyeEFIaDdhNnE2eTZQRENIS284REN3Z3lya29ML3pTOWxoUm1HQTVJVFFGRHBzOWdIYkdjV2FWMWVjWTNrMHZseEpLYzNZanJwMi9GUnRXdTMreThtYVJOYk1BRkdPY2ZXRGc0*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b3f92aa0-725f-4e2c-a3e1-66580ae2b4dd" CvElementArea="24, 540, 84, 20" CvTextArea="28, 545, 39, 11" CvTextArgument="C.O. ..." CvType="Button" DesignTimeRectangle="24, 540, 84, 20" ElementType="Button" Guid="3f0e9142-cab3-4bf6-9c46-1e81e3aa0c50" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="b3f92aa0-725f-4e2c-a3e1-66580ae2b4dd" CvTextArea="41, 611, 140, 13" CvTextArgument="Presentar saldos negativos" CvType="Text" DesignTimeRectangle="41, 612, 140, 12" ElementType="Text" Guid="1f01fc7f-f5c6-4247-9e55-12b5e722ed76" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="b3f92aa0-725f-4e2c-a3e1-66580ae2b4dd" CvElementArea="25, 583, 84, 20" CvTextArea="28, 588, 37, 11" CvTextArgument="U.N. ..." CvType="Button" DesignTimeRectangle="25, 583, 84, 21" ElementType="Button" Guid="008f83d3-962e-44bc-b2b0-41200f21775a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="9" Y="-6" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="cc9f41e5ded528ea38d4252b2f8a93dd.png" xmlns="">0gu_Cig34b063ecX-GhRzBQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

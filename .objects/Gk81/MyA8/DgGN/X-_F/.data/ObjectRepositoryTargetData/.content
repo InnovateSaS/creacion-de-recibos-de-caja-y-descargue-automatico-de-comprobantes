@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IO6TMV3Xzkak7rtl7zQRyg" Reference="LQi3Th_3VEK_gQHqxSrAOQ/X-_FworDfkuiS9sRx_edPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="e61b23a1-9ccd-4892-a288-856a6d04bace" CvElementArea="24, 365, 14, 14" CvType="CheckBox" DesignTimeRectangle="24, 365, 14, 14" DesignTimeScaleFactor="1" ElementType="CheckBox" Guid="4c36f8f1-f131-47da-94a8-fe626078751b" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3YzhDL1djY3ZJdUgwNDVtcDdJalBVaVFLUVk1Z0xBdDZuVHpESDh5bzJBK2VrWEtNMlUvamNqU0FyeEFyNm56bXQ0K0VDcWNWSEx2NnBNR29nejBtK2xlb3ZaUXJDczErOFVoTk1MdWdrcWY4RTN0M0dxU1V5UXdGM2tVblFLTWVCcWVuaG91NjVBdVZGQTd2bUVGclJ0TlZINjcvZ1YyWTVJU2FhdUV5*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e61b23a1-9ccd-4892-a288-856a6d04bace" CvTextArea="40, 367, 93, 11" CvTextArgument="[num_factura]" CvType="Text" DesignTimeRectangle="41, 367, 91, 10" ElementType="Text" Guid="c713f51c-008e-4213-ba2e-259734468862" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="-7" Y="-8" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="eb13c045e003c848ce0f39838d7e457f.png" xmlns="">0QpLDTCvCvEmrSaT69YaSFw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="num_factura" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

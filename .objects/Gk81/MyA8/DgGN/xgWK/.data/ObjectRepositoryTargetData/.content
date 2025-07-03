@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GYbDd95UC0O-kYbTp7fs_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="0dc5ade6-2395-40a4-a052-9259adcc572a" CvElementArea="496, 576, 122, 19" CvType="InputBox" DesignTimeRectangle="496, 576, 122, 20" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="1f4f8579-de76-4476-85e8-3bb397fbafe4" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3cExjUWdzQ1p1NGE5eVdUNUR0UEFpa3RYMUF2MWIwWks5a0VWRWV3MHhTSmhMT0FST2RnRjBiRHBmU2Jxc1JDOHJKL1RKMkxjMWcyWVhUcEQ2enBxazNBem9sQWxvbjBuYnJNdStXRzlZZnZWZnhhdC9lcUs0cm5rdGgrSndabUJqc0Flem9XNW1aSXFNeElEZGE5TWlpT3ZsOTZaSjRoWFJVZFJBMXZJ*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0dc5ade6-2395-40a4-a052-9259adcc572a" CvElementArea="417, 575, 78, 21" CvTextArea="421, 580, 54, 10" CvTextArgument="Auxiliar ..." CvType="Button" DesignTimeRectangle="417, 575, 78, 21" ElementType="Button" Guid="9cfccfe7-5b9f-42cf-b23e-5685c432b197" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="0dc5ade6-2395-40a4-a052-9259adcc572a" CvElementArea="405, 478, 139, 22" CvTextArea="413, 484, 122, 12" CvTextArgument="Anticipo/Otros ingresos" CvType="Button" DesignTimeRectangle="404, 478, 139, 22" ElementType="Button" Guid="aa5a121b-dd35-41f7-9ab1-332be77a97be" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="0dc5ade6-2395-40a4-a052-9259adcc572a" CvTextArea="412, 395, 78, 13" CvTextArgument="Ajuste al saldo" CvType="Text" DesignTimeRectangle="412, 395, 77, 12" ElementType="Text" Guid="3187426b-bd6f-4a8a-af7e-a6b146af285e" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="db42fdb81cebfe2f3ef96f060bf5db75.png" xmlns="">0ZFOBCSqbDkGDVdwKl_ec6w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

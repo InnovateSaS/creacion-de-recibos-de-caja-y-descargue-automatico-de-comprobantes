@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gvWWhkL9y0u8I4KQX1Dypg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="852b0c6a-a4aa-4c2b-b525-a9d8c8911ce3" CvElementArea="572, 560, 90, 20" CvType="InputBox" DesignTimeRectangle="571, 559, 90, 20" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="3647bdb5-bdac-4fb1-98c0-d6a5927d05bf" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3LzBHVUEyNU81ejUxR0RCVmZBTG81Ym1zd3krekIxc3BoSmZHa2pKZEV4NFJxL2xYSDFBT0N4aldTbmJnaG4yMWF6STd2cVhXbzVTYzBQL3h5Q2xVNUdYd2xqaFAzMGdZVmRSd3JsWlhPc01SQk8rS2RNdUJNTnVoSVNCOE5LLzRvUG9FNnliNzdjK3RzREpJOEVhZjJnRmZOQWt6QmZZNWJKYWFZOFNy*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="852b0c6a-a4aa-4c2b-b525-a9d8c8911ce3" CvTextArea="536, 565, 36, 10" CvTextArgument="Inicial:" CvType="Text" DesignTimeRectangle="536, 565, 36, 10" ElementType="Text" Guid="eed837f8-9cc2-42a8-a3bc-4d30e9a3cdb9" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="852b0c6a-a4aa-4c2b-b525-a9d8c8911ce3" CvTextArea="536, 583, 28, 10" CvTextArgument="Final:" CvType="Text" DesignTimeRectangle="536, 582, 28, 11" ElementType="Text" Guid="a9b1e03e-3a99-4e2c-ae57-c82558e9e0a5" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="852b0c6a-a4aa-4c2b-b525-a9d8c8911ce3" CvTextArea="550, 545, 43, 11" CvTextArgument="Número" CvType="Text" DesignTimeRectangle="550, 545, 42, 11" ElementType="Text" Guid="86178e3a-5893-4f0e-a7b8-4246f58d761f" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ac5e1c6257fba0d4efb3e9b3d905b9eb.png" xmlns="">0BJZfAeqhVEO73r-ouZXW8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9kcxvsV2yE6QjgoLZeslyQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="dee71a4b-43d8-48e8-a893-82db9ed00f43" CvElementArea="1283, 183, 27, 16" CvType="CloseButton" DesignTimeRectangle="1283, 183, 27, 16" DesignTimeScaleFactor="1" ElementType="Button" Guid="82684101-e7fd-4739-ac1b-fe33c8454dea" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3eENTQlF3cWltN1dnajFtWVlqcjhTRUtvSDkrM3JsT3ZjcGRoZGRPWG41Z0JrWnBPLy9RRERJanpycW1sUFJ4cDlhK3FyK3AwTWhqSSs1UUdpSENHU1JZeVFWZXZWMVdXR2duRkNMaFJBbDNXbnZXVlZNZE1tVlNtdzRLQ0pTU3A1U1VyQjFhY2hiUmpXMk5lTUlDMEZtV0tBUW5nOE45UllST3RVbFQ5*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dee71a4b-43d8-48e8-a893-82db9ed00f43" CvElementArea="1255, 183, 27, 16" CvType="MaximizeButton" DesignTimeRectangle="1255, 183, 27, 16" ElementType="Button" Guid="f76be941-e9b1-46b4-8469-159ffd865736" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="dee71a4b-43d8-48e8-a893-82db9ed00f43" CvElementArea="1228, 183, 27, 16" CvType="MinimizeButton" DesignTimeRectangle="1227, 183, 27, 16" ElementType="Button" Guid="8f951b33-76f2-4e84-98ea-45fcfcd2096c" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1bc99ded46f6a5ceb0404fbdad036499.png" xmlns="">0Q1X1c7USXkOFLRivwB9n6w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

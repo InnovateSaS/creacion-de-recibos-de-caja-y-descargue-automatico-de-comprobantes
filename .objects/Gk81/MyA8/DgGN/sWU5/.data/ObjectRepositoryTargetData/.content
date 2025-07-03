@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z0rMGhlx_UqVmC9lcY2bLQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="0b0eceb5-e3b7-43f6-81cf-8a981aee85ba" CvTextArea="417, 214, 70, 13" CvTextArgument="Pronto pago" CvType="Text" DesignTimeRectangle="417, 214, 70, 13" DesignTimeScaleFactor="1" ElementType="Text" Guid="0ba14851-e132-4c65-96cd-95925d206d9b" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3bUYyRVhBdVFLUEdYQUYrWWtacFdxbFlPR1JEWExuNE16aVA0UUQ4UG55U01nL2dtNWVxQzFRRldrS2xVNVRyYk9JWFpva1FNb3VVSWhJL0hxQmVVLzVRaDBISjJzVEtuMGJMU0h1VXRwbDUwRWo5RER4UmhtVmY3NzJhNmRCYWdZZUJtZlJEVEFxWElwSGN3eW5nS1kxTmVFNzFJWjExREJVWDZuZkZw*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0b0eceb5-e3b7-43f6-81cf-8a981aee85ba" CvElementArea="417, 225, 53, 25" CvTextArea="426, 232, 35, 11" CvTextArgument="PCGA" CvType="Button" DesignTimeRectangle="416, 225, 53, 25" ElementType="Button" Guid="de4785f1-7495-40cb-8013-b32507ad2187" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="0b0eceb5-e3b7-43f6-81cf-8a981aee85ba" CvElementArea="468, 227, 44, 23" CvTextArea="477, 233, 26, 11" CvTextArgument="NIIF" CvType="Button" DesignTimeRectangle="468, 227, 44, 23" ElementType="Button" Guid="95855600-fa54-4f19-9368-f4018faf05ca" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="0b0eceb5-e3b7-43f6-81cf-8a981aee85ba" CvTextArea="425, 188, 122, 12" CvTextArgument="Auxiliares adicionales" CvType="Text" DesignTimeRectangle="422, 188, 125, 12" ElementType="Text" Guid="c0327778-558a-4839-93f2-01c3517dd183" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c6c023976d00b1a958e7617b7908f87b.png" xmlns="">0iMM9cMNS1UmczzSMPq0ptw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

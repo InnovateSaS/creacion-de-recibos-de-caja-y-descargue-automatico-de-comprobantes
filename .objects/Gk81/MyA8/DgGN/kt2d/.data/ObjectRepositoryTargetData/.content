@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nvM0PEplWEWTi9bEv3jgWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="afef355c-6156-4fe8-b8c9-617cb4c31e0c" CvElementArea="18, 640, 154, 34" CvTextArea="52, 652, 32, 12" CvTextArgument="Logoff" CvType="Button" DesignTimeRectangle="18, 641, 154, 34" DesignTimeScaleFactor="1" ElementType="Button" Guid="c72597a4-316a-4f2d-a0ac-9fd299f591ce" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3OU9NRncrbWhoSVFGVmxCcW1xWFdkeWlJTVZlODNJeUNSWWVHMEMzRVRCd3lVYzVZM0ZoQW9ONHFuTEloOTJJRGxpS3hCNllzTURYZWRieFpwM0d4TDdxWmZCZ3E2a1RVWi9jY3l6NzlaME9JZlhnZEx6Qi95dkk5TUZJMEtoNnQ3U0lQbStrVi8raHpWUURyNFB6ZmZMd3puVEQ5KzZZZC9ocVI0dnpH*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="afef355c-6156-4fe8-b8c9-617cb4c31e0c" CvElementArea="608, 750, 103, 26" CvTextArea="633, 759, 53, 13" CvTextArgument="Remote App" CvType="Button" DesignTimeRectangle="608, 750, 102, 25" ElementType="Button" Guid="60d379d0-8879-429f-97dc-2cd870e5bc80" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="afef355c-6156-4fe8-b8c9-617cb4c31e0c" CvTextArea="17, 185, 54, 10" CvTextArgument="Remote App" CvType="Text" DesignTimeRectangle="17, 185, 54, 10" ElementType="Text" Guid="2c8c0975-a7fe-47b3-bcd0-56d767ea1c45" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="80c8d361070239da670d9e1a3ff33be6.png" xmlns="">0LMTkhx5AVU66zZpg_KcMAA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

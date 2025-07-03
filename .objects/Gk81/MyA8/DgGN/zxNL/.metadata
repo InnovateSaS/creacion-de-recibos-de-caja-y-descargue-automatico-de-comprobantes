@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Fecha recaudo(3)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "zxNLsZIvpEmq4k0nOGnXmA",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/zxNLsZIvpEmq4k0nOGnXmA",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-03-03T23:10:31.2362515Z",
+  "Updated": "2025-03-03T23:10:31.2362515Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="c5GwSYk9UUC28G0kEqhUcQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="3d3fe058-7151-42b8-a148-2ec1c5ca13b0" CvElementArea="492, 497, 17, 17" CvType="RadioButton" DesignTimeRectangle="492, 497, 17, 16" DesignTimeScaleFactor="1" ElementType="RadioButton" Guid="6750f22d-c713-4156-9dc4-0c89ba7126d6" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3aDVNc012VTlHQ0xrVzl6QzFjQUdMSDFkTndQZnA1TzM2VHNBK3QyMXd6c0hIYWF1Mmh0ZG5Kd3UvOHRheGhvNmNUKzc3VTZydlpKUzVEYytSL3RFWUNMZFAxd25kV1FuYTJ1dzZZRGhoeDFrdVhST0ViKzc4SHNWVStDUjdxWGt4MkxLdHVyMWtoV3dpV2VJd3NRWHZoWlZ1MFRwamtiVXFxWWQxc0hs*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3d3fe058-7151-42b8-a148-2ec1c5ca13b0" CvTextArea="510, 499, 85, 13" CvTextArgument="Otros ingresos" CvType="Text" DesignTimeRectangle="510, 499, 85, 13" ElementType="Text" Guid="7ec83db5-7b79-4e77-bec7-5ef97b0ae607" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="3d3fe058-7151-42b8-a148-2ec1c5ca13b0" CvTextArea="442, 500, 46, 12" CvTextArgument="Anticipo" CvType="Text" DesignTimeRectangle="441, 499, 47, 13" ElementType="Text" Guid="f2cf3024-9f2b-497e-9156-1e66f040dc62" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="3d3fe058-7151-42b8-a148-2ec1c5ca13b0" CvElementArea="408, 465, 155, 26" CvTextArea="417, 471, 136, 14" CvTextArgument="Anticipo/Otros ingresos" CvType="Button" DesignTimeRectangle="408, 465, 154, 25" ElementType="Button" Guid="de7c8e81-d780-40cf-b9f9-88c49b626cbc" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a951445be91d74397b8d588fd769917f.png" xmlns="">0rw8GJUSQSEadkt6anL-57Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

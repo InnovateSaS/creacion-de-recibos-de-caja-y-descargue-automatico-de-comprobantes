@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Fórmulas",
+  "Type": "Element",
+  "Id": "HMm2abPRdEerLeyoUDcKwA",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/HMm2abPRdEerLeyoUDcKwA",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/6NXqBuG6QEeRxGKbJGLKNw",
+  "Created": "2025-06-04T16:10:52.0918858Z",
+  "Updated": "2025-06-04T16:10:52.0918858Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

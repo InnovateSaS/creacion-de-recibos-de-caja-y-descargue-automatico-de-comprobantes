@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KjIVflQ0g0633QNISvLwPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="007b22ba-b658-4ce3-8357-284d6e7a8b88" CvElementArea="770, 528, 75, 23" CvTextArea="799, 534, 17, 11" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="770, 528, 75, 23" DesignTimeScaleFactor="1" ElementType="Button" Guid="e301de8f-fef7-45b8-9e91-02288f1dcda0" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3ZTdaNjNMdlMxTGFEZ2VacERuUUZ0bytuNmhRRUwrdVZQV1ZHaXB5eVhWejVaYWxmTjhDU3Y1T2FWanN4bUNKcWo5cUJKZ25mQlB3SE9OdjdDUUY1OFYrY3I2TzNRUG1PZTMrQTlSSkpyOFZMcnUvdFE2dVVnc3h3Yis0NXdpdy8wQWV4Rk9pTVJGWFdjRTRJbHptNG5oZGFaTGpXSXgxdUs1bVp4YVhP*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="007b22ba-b658-4ce3-8357-284d6e7a8b88" CvElementArea="836, 415, 18, 18" CvType="CloseButton" DesignTimeRectangle="836, 415, 18, 17" ElementType="Button" Guid="0e8abad2-4a54-4ee0-bf48-42a8e31343cd" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="22fe25f9d3a30434892629569fbdc995.png" xmlns="">04BJucsmTTUKVAmkcQ2Acrw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

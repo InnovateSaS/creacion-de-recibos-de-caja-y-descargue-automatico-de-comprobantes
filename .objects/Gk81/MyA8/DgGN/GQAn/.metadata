@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Button(4)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "GQAnDaDZw0qFUmaP3LkIgQ",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/GQAnDaDZw0qFUmaP3LkIgQ",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-03-03T22:56:21.0442342Z",
+  "Updated": "2025-03-03T22:56:21.0442342Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-HMRwEpaK0GyPWGDASGMfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="m365.cloud.microsoft/launch/excel" CVScreenId="f9989941-1ed8-4d35-86a1-c70d5e9a092c" CvTextArea="139, 232, 89, 14" CvTextArgument="Crear nuevo" CvType="Text" DesignTimeRectangle="140, 229, 1160, 32" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='___170daj9 f19n0e5 fk6fouc fl43uef fod5ikn fpe6lb7' aaname='Crear nuevo' check:innerText='Crear nuevo' /&gt;" Guid="e351b477-8ef1-4832-a731-606469645b4a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Excel | Microsoft 365 Copilot' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f9989941-1ed8-4d35-86a1-c70d5e9a092c" CvTextArea="139, 471, 113, 15" CvTextArgument="Recomendados" CvType="Text" DesignTimeRectangle="140, 463, 111, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-label='Recomendados' tag='H2' type='' class='___u1nm6e0 f19n0e5 fk6fouc fl43uef fod5ikn' aaname='Recomendados' check:innerText='Recomendados' /&gt;" Guid="e93ce4ab-c9e3-403b-b4bf-602e6f9b1510" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="3707256c-3604-45f0-b046-663f66bd6951" CvTextArea="1167, 417, 109, 16" CvTextArgument="Ver más plantillas" CvType="Text" DesignTimeRectangle="1169, 414, 107, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Ver más plantillas' parentid='start-page' tag='SPAN' type='' class='fui-Text ___c56hd20 fk6fouc fkhj508 f1i3iumi figsok6 fpgzoln f1w7gpdv f6juhto f1gl81tg f2jf649' check:innerText='Ver más plantillas' /&gt;" Guid="a03b0ccc-4b31-4abd-a737-40138274accd" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="3707256c-3604-45f0-b046-663f66bd6951" CvElementArea="1275, 468, 20, 22" CvType="ArrowButton" DesignTimeRectangle="1274, 463, 20, 32" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' parentid='recommended' tag='svg' class='___tdenf20 f22iagw fez10in fg4l7m0 f122n59 flvyvdh f1l02sjl f4d9j23' aaname='' /&gt;" Guid="46898906-01fd-450a-be96-f96a7592177b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7e2417b2d9e5013fc136b50b06877247.png" xmlns="">0P7MSF8UkNkaOYHPnRyi73Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

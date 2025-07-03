@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Entrada 'Valor'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "wojXHh6Z9UuEFWSXgpc_iw",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/wojXHh6Z9UuEFWSXgpc_iw",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/4aNBIbiGVUONyyDu4i8X5A",
+  "Created": "2025-03-03T19:35:22.1043312Z",
+  "Updated": "2025-03-03T19:35:22.1043312Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9fqh_Z6HEU-_k4iZEnxoiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="e6d66733-b047-4027-8417-6616780c074e" CvElementArea="201, 229, 20, 19" CvType="Icon" DesignTimeRectangle="199, 227, 24, 23" DesignTimeScaleFactor="1" ElementType="Icon" Guid="1d50212b-3006-4643-a18b-8cc275074dd7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAXCAYAAAARIY8tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGgSURBVEhLxZRPKARRHMfn6G9ciIuDEzlw2wMHbo5K4uzkRErt2k2kbQ+7pSgUFxwc1MYqOSxx4LQoF+GAaVBKDhs7s1Z9/X5my+6bNxPW8OozzfR+7/uZ9+bXKIZhwE0U9VqFmyhwefyP4CEJBOPAQNQZ7xZwfJtdZDOkgpFNoGoCKBp1pmIMaJ8HEmp2oWRIBc1TZkDrHLCakLNwCNRMAiV+klDdkY1EQYauAo1hU3BwCbyl5WQIX8ysY0kH7eSEJUKWoyBxZZ3LJUTfiesYPq7xbWuNoyB+Bjyn7PFufAqYYXoWsxwFXUtAZN+e+lCBgu9SkKCa2rZzEehfAzzTQFnAWvNjQTmF9a5QK94Ad0/AzjnQFMmvYaSCNF1EGgRBLfV7ZA/QX835FLUoC4upPXPrhkggZim6QQsFREEltaCPfgvcOTyffAHaZvNrmMF1a5ai63QjIAqYuiDgJ0nsFOijt2epWPMhELKkgm5qz1LJR3SCjzG8a82SCi7ugZ5loIX+SV/BMwMEaHfaozVLKvhN/kKQoRv3UDRVg3toeAfzDpfYs+Oi3gAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3cExjUWdzQ1p1NGE5eVdUNUR0UEFpa3RYMUF2MWIwWks5a0VWRWV3MHhTSmhMT0FST2RnRjBiRHBmU2Jxc1JDOHJKL1RKMkxjMWcyWVhUcEQ2enBxazNBem9sQWxvbjBuYnJNdStXRzlZZnZWZnhhdC9lcUs0cm5rdGgrSndabUJqc0Flem9XNW1aSXFNeElEZGE5TWlpT3ZsOTZaSjRoWFJVZFJBMXZJ*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e6d66733-b047-4027-8417-6616780c074e" CvTextArea="238, 206, 63, 11" CvTextArgument="Contabilidad" CvType="Text" DesignTimeRectangle="238, 206, 62, 11" ElementType="Text" Guid="fcfe5e46-4866-4ccc-9993-8cd10d8d2a2c" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="e6d66733-b047-4027-8417-6616780c074e" CvTextArea="129, 206, 37, 11" CvTextArgument="Edición" CvType="Text" DesignTimeRectangle="130, 206, 36, 11" ElementType="Text" Guid="0676b830-1209-4720-910f-802c638f0f57" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="e6d66733-b047-4027-8417-6616780c074e" CvTextArea="180, 206, 44, 11" CvTextArgument="Maestros" CvType="Text" DesignTimeRectangle="180, 206, 44, 11" ElementType="Text" Guid="a40a67f5-1445-406a-bcbc-5bfc16d1d279" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dc6563d8009046c2b16704b7a21a6c03.png" xmlns="">0eQ9Ai5_u1U6lfQ5VEe7Zkw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

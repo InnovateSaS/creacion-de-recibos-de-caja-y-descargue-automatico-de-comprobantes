@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="p7TE-DQHu06Q5xPxRbQPrg" Reference="LQi3Th_3VEK_gQHqxSrAOQ/w7in1Z6-fkKqqdK0KAGNTg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="21b13f86-6064-4ed8-9387-38fb4ecf61c7" CvElementArea="817, 678, 76, 24" CvTextArea="830, 684, 47, 13" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="817, 678, 76, 24" DesignTimeScaleFactor="1" ElementType="Button" Guid="4c7bce7a-f6fa-42e2-9700-4110547df709" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3YVFWelRNeGM0YU1ya1gyMDluQ3QxT3FUcFF3Wk5vZ0czcmQzOXB4ZERoa3g0bVcxNm9KbjJGcldDbWlya01TMCsrY3V0aFJpOHVWcm45cy92dm0yaTZYbTlUdHVHMUVYZHNRNGVPa2U1WWFEU21uMDBFSldqdk9UdHZnSnZRdEJIci9lNVgyeG84dldwMGE1OEUxVmtDcnZlVEZyVzZBM0pKSGhwZlFJ*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="21b13f86-6064-4ed8-9387-38fb4ecf61c7" CvElementArea="893, 678, 76, 24" CvTextArea="904, 683, 53, 12" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="893, 678, 75, 24" ElementType="Button" Guid="a30b80e3-f80b-48ab-b0b6-eb86335d396a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9edbfa60bb0b5a38b69be0e195f276f8.png" xmlns="">0CBvmZCtjZkSIEpDGRQavPA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

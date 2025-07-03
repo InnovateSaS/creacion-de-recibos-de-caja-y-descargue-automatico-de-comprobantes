@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome BANCOLOMBIA 2025.xlsb",
+  "Type": "Screen",
+  "Id": "a2-TjhthRkWjvl0vGneWAg",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/a2-TjhthRkWjvl0vGneWAg",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/dWuCLiGF4E63IutkvNaDHQ",
+  "Created": "2025-03-22T02:23:53.11069Z",
+  "Updated": "2025-03-22T02:23:53.11069Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

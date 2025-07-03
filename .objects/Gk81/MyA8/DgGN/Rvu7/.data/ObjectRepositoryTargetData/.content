@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nrpPYzUwIUOW9VeQzC0Ycg" Reference="LQi3Th_3VEK_gQHqxSrAOQ/Rvu74Thi-USpCLGMr8wOcg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="5e98a3e1-4028-4191-b26f-fc523bbdac46" CvElementArea="668, 382, 91, 22" CvTextArea="675, 387, 77, 14" CvTextArgument="Aplicar Saldo" CvType="Button" DesignTimeRectangle="668, 382, 91, 22" DesignTimeScaleFactor="1" ElementType="Button" Guid="4232e580-e221-4ed2-8e11-5fc2923c7a1e" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3UlJka0RSM1Q4NUFGalpCMHdnNmsyR3VFSFFxdWRYTm9mYms5MWxIQmZOSkQvQmh3Z2hML0Z1TXZSbXhwQ0JBeDZSR3cvMWJwUWF4MmRQeVZUS3Q3M1F3WHQ2M3h4Sk9mbVJxZ0NsOXIrS1dVSUZHa1h5MjBGazVCUGk0OWVJK21HaEZwZG0xZjNWOThsMEMxNDMrTk1aSU1UWXd6Yk4rVWdZNi9mUWVO*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="63e3c9cb-41b7-42d0-bfa6-29256e8e526f" CvElementArea="760, 382, 107, 23" CvTextArea="767, 387, 93, 12" CvTextArgument="Desmarcar todo" CvType="Button" DesignTimeRectangle="760, 382, 108, 23" ElementType="Button" Guid="5533f2e5-ddf8-4354-8c4d-c0717b9809d8" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f052ac7a7d8ada1db725326028d6ba93.png" xmlns="">0oXguSli1W0-Y-73fa0g06g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

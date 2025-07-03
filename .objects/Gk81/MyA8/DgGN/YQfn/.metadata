@@ -1,0 +1,13 @@
+﻿{
+  "Name": "CANVAS JWTS_myCanvas",
+  "Type": "Element",
+  "Id": "YQfnunhhekmSKg3-70-gvA",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/YQfnunhhekmSKg3-70-gvA",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-04-03T19:15:12.9783326Z",
+  "Updated": "2025-04-03T19:15:12.9783326Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

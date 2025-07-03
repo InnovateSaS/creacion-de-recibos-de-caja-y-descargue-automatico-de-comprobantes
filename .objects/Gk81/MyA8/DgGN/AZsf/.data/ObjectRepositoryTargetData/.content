@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L5-oSHChr0S0bwQlN6plYQ" Reference="LQi3Th_3VEK_gQHqxSrAOQ/AZsfzf15rUumWuNEJgGcwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="0bab4e27-bdf2-4b1e-b8aa-b467f2831ee9" CvTextArea="539, 382, 23, 10" CvTextArgument="0.00" CvType="Text" DesignTimeRectangle="539, 382, 23, 10" DesignTimeScaleFactor="1" ElementType="Text" Guid="51dc1323-5012-4ac3-b431-e192ee13ca06" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3MEpjQ3p6b0RwWjdpVGpoRmlsWEkwZE1WN0JubjN4U0x3YWJEeDk0V1N6T3ZtL2RQNVVFdzJlNVhOc1AwT3c5UE5FVEdpcXFpZzhRUzB1eHd4aTI1R3ZmTGdaWXBFQTA0anhaWkhNS0l4Qm5GTUp5VGdSVlhodjNKSmV2UE02cEU5Ny9NWDZ0b290SHVKUE9SYThERFloNmRRZnFUYm8rbmFJQU9kRTNq*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="2">
+          <Target CVScreenId="0bab4e27-bdf2-4b1e-b8aa-b467f2831ee9" CvTextArea="452, 338, 112, 12" CvTextArgument="Pronto pago a aplicar" CvType="Text" DesignTimeRectangle="452, 338, 112, 13" ElementType="Text" Guid="0231095d-bb7b-4b09-b6fc-383701b3b1bf" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="0bab4e27-bdf2-4b1e-b8aa-b467f2831ee9" CvTextArea="46, 382, 91, 10" CvType="Text" DesignTimeRectangle="46, 382, 91, 10" ElementType="Text" Guid="78135f21-0e14-4195-9ee2-491a903faf10" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="46b6b9e0ee1647f2499d34b2e7a25caa.png" xmlns="">0OD0oXp8kgUWDXcTihZLyKg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

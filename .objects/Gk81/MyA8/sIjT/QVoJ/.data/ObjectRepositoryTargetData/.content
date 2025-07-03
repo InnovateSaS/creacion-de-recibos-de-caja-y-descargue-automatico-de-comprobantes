@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OIBXi7wIh0i2oOXurih_hA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" DesignTimeRectangle="28, 348, 17, 22" DesignTimeScaleFactor="1" Guid="330de6fe-7a6e-4f07-b0b7-eb4fda1fc45a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABEAAAAWCAYAAAAmaHdCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFvSURBVDhPzZLBTsJAFEX7A36TYSlqIvyCyF5iIBCgUKIxLFjoL2hAghRk5caYEGQvLpS2tFaJxIUFUoNBypUpClGgtLDxJmcxmZmT9+YN1el0MEkZnhUfLqfujRH5BiShgRkSGVfH1xCm7o2ZIzHHSPL0+IpFqXEvOtS7quGHg/04bKs202TOMuh9aKQdDEobEg5FUb4pw0ycDieSJ0ngE9YkmqZBURS02204thzWJVpPg1AVEAwEkU6lYV+zW5MQQfW+CibC6EiSZFxJjs2hcFFA8605FAxa4B44xCIxxJgYBF5Av983fhM2y8Kz60H8MI6W0hr8Awl0iAYTZcDzvC4gMZSUSiXcVe7g3nEj4A/Au+cFHaYhiuJIQDJ3OuQwKdu17YLf50f9uf5LQGJqxOQSGaWqqvr6bwwlxWIR3W53LjOnk0gcYWN90zSp09SkxCr5bH4o4TkZi8Ke5yDXZFCV2wqWhfp+7KXyXyTAF3o+JjKR+yxHAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3dTBHUUQ1dkU1dW8yeS9WUUJ4MGpxZzY1YjdJMmk2RHQzMERoaFJ1QmZkLy9NNXJHSGxVemtWWTNraVM5RUhWUEh2eC9aQUdrRjRyRFdXSUVJdHNrU2NiMDBHaTZTOWdQZTNOemoydU1YNzFnamR2SVhLbTRQY013QWJ2RHVlM0VFcEwyVUc2WU5sRlpTRjFFcW5GT2pFeW03N3ljOEpWZUtXZit5ZGRs*' title='HTML5' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="8, 129, 1303, 646" FuzzySelectorArgument="&lt;webctrl id='JWTS_myCanvas' tag='CANVAS' type='' class='' aaname='' /&gt;" Guid="f9633a03-4bd1-48cc-b68b-c049b3cca15a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b90bd28324f2c35d0f424704e3ed4c47.png" xmlns="">0ANZ0vrMLXkOjEztgrBxAwQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

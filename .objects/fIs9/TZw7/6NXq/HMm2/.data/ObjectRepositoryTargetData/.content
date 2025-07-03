@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kcvJ2nwGJECbrNL6ZZrqew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="repuestossimonbolivar-my.sharepoint.com/:x:/p/auxiliarcontable/ETS3cck2mFhLm2F249FAi0sBKcnzPrWHeKt9QzMimLjVrQ" CVScreenId="3fd69648-efa6-4c8e-a4c4-04599a47ec8c" CvTextArea="477, 229, 8, 12" CvTextArgument="3" CvType="Text" DesignTimeRectangle="456, 224, 140, 22" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl parentid='3' tag='SPAN' type='' class='ms-Button-flexContainer flexContainer-563' aaname='' check:innerText='3' /&gt;" Guid="f1e84862-6de2-4d8d-a551-38bcde749939" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BANCOLOMBIA 2025.xlsb' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3fd69648-efa6-4c8e-a4c4-04599a47ec8c" CvTextArea="442, 186, 58, 13" CvTextArgument="Fórmulas" CvType="Text" DesignTimeRectangle="443, 186, 56, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl id='id__17' tag='SPAN' type='' class='ms-Button-label pivot-header-label label-168' aaname='Fórmulas' check:innerText='Fórmulas' /&gt;" Guid="668d301d-6534-4454-be74-a239db7c2f34" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="3fd69648-efa6-4c8e-a4c4-04599a47ec8c" CvTextArea="310, 186, 109, 16" CvTextArgument="Diseño de página" CvType="Text" DesignTimeRectangle="311, 186, 108, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='WacFrame_Excel_0' tag='IFRAME' /&gt;&lt;webctrl id='id__14' tag='SPAN' type='' class='ms-Button-label pivot-header-label label-168' aaname='Diseño de página' check:innerText='Diseño de página' /&gt;" Guid="e2e4a80b-ee92-45a8-96d7-8fff511303c8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c8d81e89c1dadda3930b356daa31be86.png" xmlns="">0x2frQrt1d0KzCcy7X9SW_g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

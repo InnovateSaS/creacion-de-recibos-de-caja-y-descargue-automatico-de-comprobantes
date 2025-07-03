@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Debe digitar una auxili…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "e4Jo1QbkREiddwil1Zms4w",
+  "Reference": "LQi3Th_3VEK_gQHqxSrAOQ/e4Jo1QbkREiddwil1Zms4w",
+  "ParentRef": "LQi3Th_3VEK_gQHqxSrAOQ/DgGNvjwnl0CXpcwxq-0B9A",
+  "Created": "2025-05-16T19:30:38.5198384Z",
+  "Updated": "2025-05-16T19:30:38.5198384Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

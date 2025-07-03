@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VbXQoc-E00elBIwsc-yjpQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" DesignTimeRectangle="29, 352, 15, 14" DesignTimeScaleFactor="1" Guid="04a095a9-555c-4269-8709-53fb4b7af9ff" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEmSURBVDhPY8jJzv/f3NzxX1/P4L+CguJ/Swur/2Ji4v/tbO3/y0jL/DcxNv2vpqr2X0tT+7++PkLNmpVr/jN8//7/PwjX1Tb+P37s+H9igJaW1v8lC5eQp9nXx/f/ssXLyNNsbGz8f+mipeRpdnZ2Jt9mGxub/0sXk2mzlZUV+c52dXUl39mGhobk2+zn5/d/2RI0mw8fPvz/169fBLGmpiZqIunrm/Tfx9uXKGwATKZgP1+6dPP/jRv3/9+///z/6dMX/799+/X/3r2H/3/+/Pv/0aOn/z979vY/TM2DBxA1gYHB/5cvWf6foaa67n9vT///+fMW/c/MyP5/6ODx/26ubv8vX7rxPzIi6v+G9Vv+19bUg9UsmL8YrObwoeP/16/d8B8AmByz6e521cUAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3dTBHUUQ1dkU1dW8yeS9WUUJ4MGpxZzY1YjdJMmk2RHQzMERoaFJ1QmZkLy9NNXJHSGxVemtWWTNraVM5RUhWUEh2eC9aQUdrRjRyRFdXSUVJdHNrU2NiMDBHaTZTOWdQZTNOemoydU1YNzFnamR2SVhLbTRQY013QWJ2RHVlM0VFcEwyVUc2WU5sRlpTRjFFcW5GT2pFeW03N3ljOEpWZUtXZit5ZGRs*' title='HTML5' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="8, 129, 1303, 646" FuzzySelectorArgument="&lt;webctrl id='JWTS_myCanvas' tag='CANVAS' type='' class='' aaname='' /&gt;" Guid="35739c55-c229-4cdd-a14a-fb52d34850d8" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="674303c1d46ae8b8a7b4f5d1798cfaeb.png" xmlns="">0SPlgVC6uSUO9jb3KewpJog</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

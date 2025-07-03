@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="K1UmsEFB202C5-Ba12xVIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="95cd1e47-bf02-4165-a1f8-462dc744d4e2" CvElementArea="180, 314, 70, 23" CvTextArea="189, 319, 53, 13" CvTextArgument="Aplicación" CvType="Button" DesignTimeRectangle="180, 314, 70, 23" DesignTimeScaleFactor="1" ElementType="Button" Guid="a596535d-7bdd-43ce-b5f2-d7029d163305" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3WXRkRVJ0S2Y0SE9EUWh4RkUrNWxzSjJMNDVLWnpaaSs4MzJEd2hIVWJHSEhNMldjRlM2NnNIRVk4dlFyM3FremxNcm9mMG5la3dDaVFiTzF0TlJmaDVoQ2liRk9ORnlKc2hHSGJPZEptODMwc0szVDZIVnNMOGNTNjNjWDhQMld4ajJiVTZDUy9YRVlmbUNPYngvSzhOTk1BNkliQ1pLbmxpUlRTNERi*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="95cd1e47-bf02-4165-a1f8-462dc744d4e2" CvElementArea="249, 316, 66, 21" CvTextArea="256, 320, 51, 12" CvTextArgument="Aplicados" CvType="Button" DesignTimeRectangle="249, 315, 66, 21" ElementType="Button" Guid="05639d64-d094-4b04-b2cf-b14b1ce36325" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="95cd1e47-bf02-4165-a1f8-462dc744d4e2" CvElementArea="85, 316, 98, 20" CvTextArea="93, 321, 82, 12" CvTextArgument="Medios de pago" CvType="Button" DesignTimeRectangle="85, 316, 98, 21" ElementType="Button" Guid="487dd567-8fe4-4a06-8eb8-c9128949fdae" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="95cd1e47-bf02-4165-a1f8-462dc744d4e2" CvElementArea="17, 316, 70, 20" CvTextArea="25, 321, 54, 12" CvTextArgument="Generales" CvType="Button" DesignTimeRectangle="17, 316, 70, 20" ElementType="Button" Guid="4c6aa923-ba82-425b-9509-35aee91159ce" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="18d769e1a90f5b2d60b6af4459282c8f.png" xmlns="">0mEZ_jrlKIUaHN21P8m_m6w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
