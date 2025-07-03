@@ -338,7 +338,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart DisplayName="Main" sap:VirtualizedContainerService.HintSize="1247,574.04" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart DisplayName="Main" sap:VirtualizedContainerService.HintSize="600,648" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="DTInfoToChange" />
         <Variable x:TypeArguments="x:Boolean" Name="DTWithInfo" />
@@ -1248,7 +1248,7 @@
             <av:PointCollection x:Key="ConnectorLocation">345,250 405,250</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Creacion de recibos de caja" sap:VirtualizedContainerService.HintSize="1430,48840" sap2010:WorkflowViewState.IdRef="Sequence_246">
+        <Sequence DisplayName="Creacion de recibos de caja" sap:VirtualizedContainerService.HintSize="1430,46567" sap2010:WorkflowViewState.IdRef="Sequence_246">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:Double" Name="descuento_real" />
             <Variable x:TypeArguments="x:Boolean" Name="debe_digitar_auxiliar" />
@@ -1272,9 +1272,9 @@
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1396,48780" sap2010:WorkflowViewState.IdRef="TryCatch_7">
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1396,46507" sap2010:WorkflowViewState.IdRef="TryCatch_7">
             <TryCatch.Try>
-              <Sequence DisplayName="Creacion de recibos de caja" sap:VirtualizedContainerService.HintSize="1394,48374" sap2010:WorkflowViewState.IdRef="Sequence_247">
+              <Sequence DisplayName="Creacion de recibos de caja" sap:VirtualizedContainerService.HintSize="1394,46101" sap2010:WorkflowViewState.IdRef="Sequence_247">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="sd:DataTable" Name="dataTableAPI" />
                   <Variable x:TypeArguments="x:String" Name="respuestaAPI" />
@@ -1479,9 +1479,9 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:DeserializeJson>
-                <If Condition="[jsonObject IsNot Nothing AndAlso&#xA;jsonObject.ContainsKey(&quot;resultado&quot;) AndAlso&#xA;jsonObject(&quot;resultado&quot;) IsNot Nothing AndAlso&#xA;TypeOf jsonObject(&quot;resultado&quot;) Is JArray]" sap:VirtualizedContainerService.HintSize="1360,47406" sap2010:WorkflowViewState.IdRef="If_120">
+                <If Condition="[jsonObject IsNot Nothing AndAlso&#xA;jsonObject.ContainsKey(&quot;resultado&quot;) AndAlso&#xA;jsonObject(&quot;resultado&quot;) IsNot Nothing AndAlso&#xA;TypeOf jsonObject(&quot;resultado&quot;) Is JArray]" sap:VirtualizedContainerService.HintSize="1360,45133" sap2010:WorkflowViewState.IdRef="If_120">
                   <If.Then>
-                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1358,47252" sap2010:WorkflowViewState.IdRef="Sequence_484">
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1358,44979" sap2010:WorkflowViewState.IdRef="Sequence_484">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1510,9 +1510,9 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </Assign>
-                      <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="Mientras" sap:VirtualizedContainerService.HintSize="1324,46966" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_15">
+                      <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="Mientras" sap:VirtualizedContainerService.HintSize="1324,44693" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_15">
                         <ui:InterruptibleWhile.Body>
-                          <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="1322,46845" sap2010:WorkflowViewState.IdRef="Sequence_248">
+                          <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="1322,44572" sap2010:WorkflowViewState.IdRef="Sequence_248">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="idFactura" />
                               <Variable x:TypeArguments="x:String" Name="respuestaApi2" />
@@ -1670,7 +1670,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:SortDataTable>
-                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1288,46110" sap2010:WorkflowViewState.IdRef="TryCatch_8">
+                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1288,43837" sap2010:WorkflowViewState.IdRef="TryCatch_8">
                               <TryCatch.Finally>
                                 <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="1286,25" sap2010:WorkflowViewState.IdRef="Sequence_553">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -1682,14 +1682,14 @@
                                 </Sequence>
                               </TryCatch.Finally>
                               <TryCatch.Try>
-                                <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="1286,45950" sap2010:WorkflowViewState.IdRef="Sequence_259">
+                                <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="1286,43677" sap2010:WorkflowViewState.IdRef="Sequence_259">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Utilizar Navegador Chrome: Web Access" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1252,274" sap2010:WorkflowViewState.IdRef="NApplicationCard_30" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="0c8c9d45-e092-428f-b31b-dc4a54446988" Version="V2" WindowResize="Maximize">
+                                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Utilizar Navegador Chrome: Web Access" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1252,314" sap2010:WorkflowViewState.IdRef="NApplicationCard_30" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="0c8c9d45-e092-428f-b31b-dc4a54446988" Version="V2" WindowResize="Maximize">
                                     <uix:NApplicationCard.Body>
                                       <ActivityAction x:TypeArguments="x:Object">
                                         <ActivityAction.Argument>
@@ -1763,13 +1763,13 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </uix:NApplicationCard>
-                                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome HTML5(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1252,45503" sap2010:WorkflowViewState.IdRef="NApplicationCard_31" InteractionMode="DebuggerApi" ScopeGuid="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V2">
+                                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome HTML5(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1252,43190" sap2010:WorkflowViewState.IdRef="NApplicationCard_31" InteractionMode="DebuggerApi" ScopeGuid="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V2">
                                     <uix:NApplicationCard.Body>
                                       <ActivityAction x:TypeArguments="x:Object">
                                         <ActivityAction.Argument>
                                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                         </ActivityAction.Argument>
-                                        <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1218,45214" sap2010:WorkflowViewState.IdRef="Sequence_249">
+                                        <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1218,42901" sap2010:WorkflowViewState.IdRef="Sequence_249">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="x:String" Name="FACTNUMB" />
                                             <Variable x:TypeArguments="x:String" Name="Doc_Tercero" />
@@ -3123,11 +3123,11 @@
                                               </Sequence>
                                             </If.Else>
                                           </If>
-                                          <If Condition="[DateTime.Parse(jsonObject(&quot;resultado&quot;)(tamañoArray-1)(&quot;fecha&quot;).ToString).Month = DateTime.Now.Month AndAlso DateTime.Now.Day &gt; 5]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="1184,1639" sap2010:WorkflowViewState.IdRef="If_81">
+                                          <If Condition="[DateTime.Parse(jsonObject(&quot;resultado&quot;)(tamañoArray-1)(&quot;fecha&quot;).ToString).Month = DateTime.Now.Month AndAlso DateTime.Now.Day &gt; 5]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="1184,57" sap2010:WorkflowViewState.IdRef="If_81">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                             <If.Then>
@@ -3352,279 +3352,320 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </Assign>
-                                          <If Condition="[diasDiferencia &gt; 0]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="1184,1684" sap2010:WorkflowViewState.IdRef="If_82">
-                                            <sap:WorkflowViewStateService.ViewState>
-                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                              </scg:Dictionary>
-                                            </sap:WorkflowViewStateService.ViewState>
-                                            <If.Then>
-                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="518,773" sap2010:WorkflowViewState.IdRef="Sequence_362">
-                                                <sap:WorkflowViewStateService.ViewState>
-                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                  </scg:Dictionary>
-                                                </sap:WorkflowViewStateService.ViewState>
-                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Fecha recaudo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,225" sap2010:WorkflowViewState.IdRef="NClick_558" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
-                                                  <uix:NClick.Target>
-                                                    <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="6f58839a-3552-414a-8003-686025bdb369" ContentHash="WAAW8zYVRkG_gRYQKuOEuw" CvElementArea="471, 326, 102, 22" CvType="InputBox" DesignTimeRectangle="470, 326, 102, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="64888ca7-882b-4802-a49e-124bc50964d2" InformativeScreenshot="e8c67679109175da5272e8d167569b7c.png" IsResponsive="True" Reference="LQi3Th_3VEK_gQHqxSrAOQ/aiQpje1LOU6TyoNqeZcUQw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3Qk5kWWo1dWdHTk5nUjFlVStvN2Y4WmdQcjlFVTZZT2JxKzh0M3kwSEZqOTZwTmY2QTgvYnA2bFUzdWV3OGJsZXV2TVp5Z1VqdUExUmFqUzcyZVp6bWxZTWhMMkJxQ3ZVaDFoTlhoVHRRMERVSlhBNXpDSGQvS3FUTHJnOW5rdG9YbTdXd1NHcHUvZFR5VnZQZVUwUTZRTTRDb1p2Z1ZxNGFrczR2cGNJ*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
-                                                      <uix:TargetAnchorable.Anchors>
-                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                          <uix:Target CVScreenId="6f58839a-3552-414a-8003-686025bdb369" CvTextArea="383, 331, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="383, 331, 88, 12" ElementType="Text" Guid="a195846c-f8b3-465c-ab78-5ba91236fc49" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                        </scg:List>
-                                                      </uix:TargetAnchorable.Anchors>
-                                                      <uix:TargetAnchorable.PointOffset>
-                                                        <uix:PointOffset Position="BottomLeft" X="9" Y="-12" />
-                                                      </uix:TargetAnchorable.PointOffset>
-                                                    </uix:TargetAnchorable>
-                                                  </uix:NClick.Target>
-                                                  <uix:NClick.VerifyOptions>
-                                                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                      <uix:VerifyExecutionOptions.Retry>
-                                                        <InArgument x:TypeArguments="x:Boolean" />
-                                                      </uix:VerifyExecutionOptions.Retry>
-                                                      <uix:VerifyExecutionOptions.Timeout>
-                                                        <InArgument x:TypeArguments="x:Double" />
-                                                      </uix:VerifyExecutionOptions.Timeout>
-                                                    </uix:VerifyExecutionOptions>
-                                                  </uix:NClick.VerifyOptions>
-                                                </uix:NClick>
-                                                <ui:RepeatNumberOfTimesX DisplayName="Repetir número de veces" sap:VirtualizedContainerService.HintSize="484,488" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_9" NumberOfTimes="[diasDiferencia]" StartAt="1">
-                                                  <ui:RepeatNumberOfTimesX.Body>
-                                                    <ActivityAction x:TypeArguments="x:Int32">
-                                                      <ActivityAction.Argument>
-                                                        <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
-                                                      </ActivityAction.Argument>
-                                                      <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,301" sap2010:WorkflowViewState.IdRef="Sequence_361">
-                                                        <sap:WorkflowViewStateService.ViewState>
-                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                          </scg:Dictionary>
-                                                        </sap:WorkflowViewStateService.ViewState>
-                                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Fecha recaudo'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_201" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Text="%[k(Down)]" Version="V4">
-                                                          <uix:NTypeInto.Target>
-                                                            <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvElementArea="423, 311, 92, 21" CvType="InputBox" DesignTimeRectangle="423, 311, 92, 20" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="fc29f0c6-7235-4e9c-a605-dfd801be850a" InformativeScreenshot="f8b96d9d95700f74b9f113fe1b5df624.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3ZXlPcEtUYzN0aURNdjFRTEluSXEwNW14MFNNaXN6dnNJMi9takZncHFMdFJUUERlT0RVS3VlZkwzUkxRTzZURGNwb05zcWZHYUpxT1YrTWw5MUw1TFo2MXd6SThFQWZaUnBsd0wwYnlOcEgza2hBckgzMUZURXlHUVdIRzh5VE83TFRBcmRLWmdLV2Z1anFGSkNTYVl5NEtDY2tNYitpNHBHTHZHQlJn*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
-                                                              <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="3">
-                                                                  <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="345, 316, 80, 11" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 316, 79, 11" ElementType="Text" Guid="c956f19b-c007-41c3-9675-9cf13bf5262d" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                                  <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="518, 316, 22, 11" CvTextArgument="Ref:" CvType="Text" DesignTimeRectangle="519, 316, 21, 11" ElementType="Text" Guid="b31cbb76-da00-403b-9ff7-b033998a4058" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                                  <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="390, 295, 34, 10" CvTextArgument="Fecha:" CvType="Text" DesignTimeRectangle="391, 295, 33, 10" ElementType="Text" Guid="663d55b2-eef1-4101-abe3-af2d2190d153" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                                </scg:List>
-                                                              </uix:TargetAnchorable.Anchors>
-                                                              <uix:TargetAnchorable.PointOffset>
-                                                                <uix:PointOffset Position="BottomLeft" X="7" Y="-11" />
-                                                              </uix:TargetAnchorable.PointOffset>
-                                                            </uix:TargetAnchorable>
-                                                          </uix:NTypeInto.Target>
-                                                        </uix:NTypeInto>
-                                                      </Sequence>
-                                                    </ActivityAction>
-                                                  </ui:RepeatNumberOfTimesX.Body>
-                                                </ui:RepeatNumberOfTimesX>
-                                              </Sequence>
-                                            </If.Then>
-                                            <If.Else>
-                                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="518,773" sap2010:WorkflowViewState.IdRef="Sequence_364">
+                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Fecha recaudo'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1184,250" sap2010:WorkflowViewState.IdRef="NTypeInto_251" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Text="[DateTime.ParseExact(jsonObject(&quot;resultado&quot;)(tamañoArray-1)(&quot;fecha_recaudo&quot;).ToString, &quot;yyyy-MM-dd&quot;, System.Globalization.CultureInfo.InvariantCulture).Day.ToString()]" Version="V4">
+                                            <uix:NTypeInto.Target>
+                                              <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="95a3e324-4529-4b4a-be9d-be3356d7cff6" ContentHash="XkN3YDqVhEecRfkt6Si7IQ" CvElementArea="423, 259, 92, 20" CvType="InputBox" DesignTimeRectangle="424, 259, 92, 20" ElementType="InputBox" Guid="c5b9ac1f-a09d-4803-a3c6-c3f593ed5633" InformativeScreenshot="85ea698d450d00e6548c792d5675d050.png" IsResponsive="True" Reference="LQi3Th_3VEK_gQHqxSrAOQ/EEQTNPFfoUiY4tudCvqSWw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3ZjVKUncvbUtnTStsdHorbGZ1VEsrOEtieGZ0TEZQL3Q3UTZ3djZNOGVITk91M2dNTktkMjJQOUNRUXVyVjFmU09aUEtZRGNCNzFJYjVFdjZGcEhmMDNYc2h2cWhmNkNwY2VYUjkwUVlia3RTK04xZXZQaFdyeWxrdzVLRkdlV3lYRzRZSTdRSkNlMndhNStEcmJ1WXZSQm5OcTRabDlRb0RGNWJUdyto*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <uix:Target CVScreenId="95a3e324-4529-4b4a-be9d-be3356d7cff6" CvTextArea="345, 264, 80, 11" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 264, 79, 11" ElementType="Text" Guid="8a674b8b-ccc7-43a6-b103-6fde1e760b58" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                                <uix:TargetAnchorable.PointOffset>
+                                                  <uix:PointOffset Position="BottomLeft" X="7" Y="-11" />
+                                                </uix:TargetAnchorable.PointOffset>
+                                              </uix:TargetAnchorable>
+                                            </uix:NTypeInto.Target>
+                                          </uix:NTypeInto>
+                                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="1184,117" sap2010:WorkflowViewState.IdRef="MessageBox_6" Text="[DateTime.ParseExact(jsonObject(&quot;resultado&quot;)(tamañoArray-1)(&quot;fecha_recaudo&quot;).ToString, &quot;yyyy-MM-dd&quot;, System.Globalization.CultureInfo.InvariantCulture).Day.ToString()]" />
+                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Fecha recaudo'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1184,250" sap2010:WorkflowViewState.IdRef="NTypeInto_254" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Text="[DateTime.ParseExact(jsonObject(&quot;resultado&quot;)(tamañoArray-1)(&quot;fecha_recaudo&quot;).ToString, &quot;yyyy-MM-dd&quot;, System.Globalization.CultureInfo.InvariantCulture).Month.ToString()]" Version="V4">
+                                            <uix:NTypeInto.Target>
+                                              <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="0e5f44a4-91cd-40c0-8f69-100cdb944eed" CvElementArea="423, 259, 92, 20" CvType="InputBox" DesignTimeRectangle="425, 259, 90, 19" ElementType="InputBox" Guid="3d805484-5955-43f5-9a6a-e619694e3c1f" InformativeScreenshot="18b97ab7b056d01389910701cb71cca3.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3ZjVKUncvbUtnTStsdHorbGZ1VEsrOEtieGZ0TEZQL3Q3UTZ3djZNOGVITk91M2dNTktkMjJQOUNRUXVyVjFmU09aUEtZRGNCNzFJYjVFdjZGcEhmMDNYc2h2cWhmNkNwY2VYUjkwUVlia3RTK04xZXZQaFdyeWxrdzVLRkdlV3lYRzRZSTdRSkNlMndhNStEcmJ1WXZSQm5OcTRabDlRb0RGNWJUdyto*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <uix:Target CVScreenId="0e5f44a4-91cd-40c0-8f69-100cdb944eed" CvTextArea="345, 264, 80, 11" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 264, 79, 11" ElementType="Text" Guid="e5dfebbd-5770-44b0-9e93-9d444de2f4ee" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                                <uix:TargetAnchorable.PointOffset>
+                                                  <uix:PointOffset Position="BottomLeft" X="28" Y="-10" />
+                                                </uix:TargetAnchorable.PointOffset>
+                                              </uix:TargetAnchorable>
+                                            </uix:NTypeInto.Target>
+                                          </uix:NTypeInto>
+                                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="1184,117" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[DateTime.ParseExact(jsonObject(&quot;resultado&quot;)(tamañoArray-1)(&quot;fecha_recaudo&quot;).ToString, &quot;yyyy-MM-dd&quot;, System.Globalization.CultureInfo.InvariantCulture).Month.ToString()]" />
+                                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1184,276" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                                            <ui:CommentOut.Body>
+                                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,165" sap2010:WorkflowViewState.IdRef="Sequence_635">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Fecha recaudo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,225" sap2010:WorkflowViewState.IdRef="NClick_665" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
-                                                  <uix:NClick.Target>
-                                                    <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="6f58839a-3552-414a-8003-686025bdb369" ContentHash="WAAW8zYVRkG_gRYQKuOEuw" CvElementArea="471, 326, 102, 22" CvType="InputBox" DesignTimeRectangle="470, 326, 102, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="64888ca7-882b-4802-a49e-124bc50964d2" InformativeScreenshot="e8c67679109175da5272e8d167569b7c.png" IsResponsive="True" Reference="LQi3Th_3VEK_gQHqxSrAOQ/aiQpje1LOU6TyoNqeZcUQw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3Qk5kWWo1dWdHTk5nUjFlVStvN2Y4WmdQcjlFVTZZT2JxKzh0M3kwSEZqOTZwTmY2QTgvYnA2bFUzdWV3OGJsZXV2TVp5Z1VqdUExUmFqUzcyZVp6bWxZTWhMMkJxQ3ZVaDFoTlhoVHRRMERVSlhBNXpDSGQvS3FUTHJnOW5rdG9YbTdXd1NHcHUvZFR5VnZQZVUwUTZRTTRDb1p2Z1ZxNGFrczR2cGNJ*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
-                                                      <uix:TargetAnchorable.Anchors>
-                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                          <uix:Target CVScreenId="6f58839a-3552-414a-8003-686025bdb369" CvTextArea="383, 331, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="383, 331, 88, 12" ElementType="Text" Guid="a195846c-f8b3-465c-ab78-5ba91236fc49" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                        </scg:List>
-                                                      </uix:TargetAnchorable.Anchors>
-                                                      <uix:TargetAnchorable.PointOffset>
-                                                        <uix:PointOffset Position="BottomLeft" X="9" Y="-12" />
-                                                      </uix:TargetAnchorable.PointOffset>
-                                                    </uix:TargetAnchorable>
-                                                  </uix:NClick.Target>
-                                                  <uix:NClick.VerifyOptions>
-                                                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                      <uix:VerifyExecutionOptions.Retry>
-                                                        <InArgument x:TypeArguments="x:Boolean" />
-                                                      </uix:VerifyExecutionOptions.Retry>
-                                                      <uix:VerifyExecutionOptions.Timeout>
-                                                        <InArgument x:TypeArguments="x:Double" />
-                                                      </uix:VerifyExecutionOptions.Timeout>
-                                                    </uix:VerifyExecutionOptions>
-                                                  </uix:NClick.VerifyOptions>
-                                                </uix:NClick>
-                                                <ui:RepeatNumberOfTimesX DisplayName="Repetir número de veces" sap:VirtualizedContainerService.HintSize="484,488" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_4" NumberOfTimes="[diasDiferencia * -1]" StartAt="1">
-                                                  <ui:RepeatNumberOfTimesX.Body>
-                                                    <ActivityAction x:TypeArguments="x:Int32">
-                                                      <ActivityAction.Argument>
-                                                        <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
-                                                      </ActivityAction.Argument>
-                                                      <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,301" sap2010:WorkflowViewState.IdRef="Sequence_310">
-                                                        <sap:WorkflowViewStateService.ViewState>
-                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                          </scg:Dictionary>
-                                                        </sap:WorkflowViewStateService.ViewState>
-                                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Fecha recaudo'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_165" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Text="%[k(Up)]" Version="V4">
-                                                          <uix:NTypeInto.Target>
-                                                            <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="6825c54d-72e9-481e-8950-886316b55c33" CvElementArea="471, 274, 102, 21" CvType="InputBox" DesignTimeRectangle="470, 326, 102, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="12f74d52-c054-4d76-8939-3b648d3b6fd5" InformativeScreenshot="b6d6918fc5b40b89a16e9414af96649a.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3S0gzTld1dlZReTVnSGxvY0VpbkZCN29sVnllMkdscVhpd0FkSTh1MVk5TzRidzREUjhGclRjM3AzZGxoMHc5cWJhYzZ6aTE2VVF4N1g5WHBaL1FMVUtuTlpwWlUxOHZsSFM3Y3RxVUxFQVU2MjZjQVIyTU81YklCM2dPU0l5ZWIwVHlueWNYRnczUnplSDI3d0JqTkljbE9PVzVacXRUTWQ5aXFLMERO*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
-                                                              <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                  <uix:Target CVScreenId="6825c54d-72e9-481e-8950-886316b55c33" CvTextArea="383, 279, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="383, 331, 88, 12" ElementType="Text" Guid="cc0ac9b7-4863-4ca4-bc19-a5f6c4ded4f0" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                                </scg:List>
-                                                              </uix:TargetAnchorable.Anchors>
-                                                              <uix:TargetAnchorable.PointOffset>
-                                                                <uix:PointOffset Position="TopLeft" X="9" Y="14" />
-                                                              </uix:TargetAnchorable.PointOffset>
-                                                            </uix:TargetAnchorable>
-                                                          </uix:NTypeInto.Target>
-                                                        </uix:NTypeInto>
-                                                      </Sequence>
-                                                    </ActivityAction>
-                                                  </ui:RepeatNumberOfTimesX.Body>
-                                                </ui:RepeatNumberOfTimesX>
+                                                <If Condition="[diasDiferencia &gt; 0]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="If_82">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <If.Then>
+                                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="518,773" sap2010:WorkflowViewState.IdRef="Sequence_362">
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Fecha recaudo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,225" sap2010:WorkflowViewState.IdRef="NClick_558" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
+                                                        <uix:NClick.Target>
+                                                          <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="6f58839a-3552-414a-8003-686025bdb369" ContentHash="WAAW8zYVRkG_gRYQKuOEuw" CvElementArea="471, 326, 102, 22" CvType="InputBox" DesignTimeRectangle="470, 326, 102, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="64888ca7-882b-4802-a49e-124bc50964d2" InformativeScreenshot="e8c67679109175da5272e8d167569b7c.png" IsResponsive="True" Reference="LQi3Th_3VEK_gQHqxSrAOQ/aiQpje1LOU6TyoNqeZcUQw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3Qk5kWWo1dWdHTk5nUjFlVStvN2Y4WmdQcjlFVTZZT2JxKzh0M3kwSEZqOTZwTmY2QTgvYnA2bFUzdWV3OGJsZXV2TVp5Z1VqdUExUmFqUzcyZVp6bWxZTWhMMkJxQ3ZVaDFoTlhoVHRRMERVSlhBNXpDSGQvS3FUTHJnOW5rdG9YbTdXd1NHcHUvZFR5VnZQZVUwUTZRTTRDb1p2Z1ZxNGFrczR2cGNJ*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+                                                            <uix:TargetAnchorable.Anchors>
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                <uix:Target CVScreenId="6f58839a-3552-414a-8003-686025bdb369" CvTextArea="383, 331, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="383, 331, 88, 12" ElementType="Text" Guid="a195846c-f8b3-465c-ab78-5ba91236fc49" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                              </scg:List>
+                                                            </uix:TargetAnchorable.Anchors>
+                                                            <uix:TargetAnchorable.PointOffset>
+                                                              <uix:PointOffset Position="BottomLeft" X="9" Y="-12" />
+                                                            </uix:TargetAnchorable.PointOffset>
+                                                          </uix:TargetAnchorable>
+                                                        </uix:NClick.Target>
+                                                        <uix:NClick.VerifyOptions>
+                                                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                            <uix:VerifyExecutionOptions.Retry>
+                                                              <InArgument x:TypeArguments="x:Boolean" />
+                                                            </uix:VerifyExecutionOptions.Retry>
+                                                            <uix:VerifyExecutionOptions.Timeout>
+                                                              <InArgument x:TypeArguments="x:Double" />
+                                                            </uix:VerifyExecutionOptions.Timeout>
+                                                          </uix:VerifyExecutionOptions>
+                                                        </uix:NClick.VerifyOptions>
+                                                      </uix:NClick>
+                                                      <ui:RepeatNumberOfTimesX DisplayName="Repetir número de veces" sap:VirtualizedContainerService.HintSize="484,488" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_9" NumberOfTimes="[diasDiferencia]" StartAt="1">
+                                                        <ui:RepeatNumberOfTimesX.Body>
+                                                          <ActivityAction x:TypeArguments="x:Int32">
+                                                            <ActivityAction.Argument>
+                                                              <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                                                            </ActivityAction.Argument>
+                                                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,301" sap2010:WorkflowViewState.IdRef="Sequence_361">
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Fecha recaudo'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_201" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Text="%[k(Down)]" Version="V4">
+                                                                <uix:NTypeInto.Target>
+                                                                  <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvElementArea="423, 311, 92, 21" CvType="InputBox" DesignTimeRectangle="423, 311, 92, 20" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="fc29f0c6-7235-4e9c-a605-dfd801be850a" InformativeScreenshot="f8b96d9d95700f74b9f113fe1b5df624.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3ZXlPcEtUYzN0aURNdjFRTEluSXEwNW14MFNNaXN6dnNJMi9takZncHFMdFJUUERlT0RVS3VlZkwzUkxRTzZURGNwb05zcWZHYUpxT1YrTWw5MUw1TFo2MXd6SThFQWZaUnBsd0wwYnlOcEgza2hBckgzMUZURXlHUVdIRzh5VE83TFRBcmRLWmdLV2Z1anFGSkNTYVl5NEtDY2tNYitpNHBHTHZHQlJn*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+                                                                    <uix:TargetAnchorable.Anchors>
+                                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="3">
+                                                                        <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="345, 316, 80, 11" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 316, 79, 11" ElementType="Text" Guid="c956f19b-c007-41c3-9675-9cf13bf5262d" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                                        <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="518, 316, 22, 11" CvTextArgument="Ref:" CvType="Text" DesignTimeRectangle="519, 316, 21, 11" ElementType="Text" Guid="b31cbb76-da00-403b-9ff7-b033998a4058" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                                        <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="390, 295, 34, 10" CvTextArgument="Fecha:" CvType="Text" DesignTimeRectangle="391, 295, 33, 10" ElementType="Text" Guid="663d55b2-eef1-4101-abe3-af2d2190d153" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                                      </scg:List>
+                                                                    </uix:TargetAnchorable.Anchors>
+                                                                    <uix:TargetAnchorable.PointOffset>
+                                                                      <uix:PointOffset Position="BottomLeft" X="7" Y="-11" />
+                                                                    </uix:TargetAnchorable.PointOffset>
+                                                                  </uix:TargetAnchorable>
+                                                                </uix:NTypeInto.Target>
+                                                              </uix:NTypeInto>
+                                                            </Sequence>
+                                                          </ActivityAction>
+                                                        </ui:RepeatNumberOfTimesX.Body>
+                                                      </ui:RepeatNumberOfTimesX>
+                                                    </Sequence>
+                                                  </If.Then>
+                                                  <If.Else>
+                                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="518,773" sap2010:WorkflowViewState.IdRef="Sequence_364">
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Fecha recaudo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,225" sap2010:WorkflowViewState.IdRef="NClick_665" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
+                                                        <uix:NClick.Target>
+                                                          <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="6f58839a-3552-414a-8003-686025bdb369" ContentHash="WAAW8zYVRkG_gRYQKuOEuw" CvElementArea="471, 326, 102, 22" CvType="InputBox" DesignTimeRectangle="470, 326, 102, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="64888ca7-882b-4802-a49e-124bc50964d2" InformativeScreenshot="e8c67679109175da5272e8d167569b7c.png" IsResponsive="True" Reference="LQi3Th_3VEK_gQHqxSrAOQ/aiQpje1LOU6TyoNqeZcUQw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3Qk5kWWo1dWdHTk5nUjFlVStvN2Y4WmdQcjlFVTZZT2JxKzh0M3kwSEZqOTZwTmY2QTgvYnA2bFUzdWV3OGJsZXV2TVp5Z1VqdUExUmFqUzcyZVp6bWxZTWhMMkJxQ3ZVaDFoTlhoVHRRMERVSlhBNXpDSGQvS3FUTHJnOW5rdG9YbTdXd1NHcHUvZFR5VnZQZVUwUTZRTTRDb1p2Z1ZxNGFrczR2cGNJ*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+                                                            <uix:TargetAnchorable.Anchors>
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                <uix:Target CVScreenId="6f58839a-3552-414a-8003-686025bdb369" CvTextArea="383, 331, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="383, 331, 88, 12" ElementType="Text" Guid="a195846c-f8b3-465c-ab78-5ba91236fc49" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                              </scg:List>
+                                                            </uix:TargetAnchorable.Anchors>
+                                                            <uix:TargetAnchorable.PointOffset>
+                                                              <uix:PointOffset Position="BottomLeft" X="9" Y="-12" />
+                                                            </uix:TargetAnchorable.PointOffset>
+                                                          </uix:TargetAnchorable>
+                                                        </uix:NClick.Target>
+                                                        <uix:NClick.VerifyOptions>
+                                                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                            <uix:VerifyExecutionOptions.Retry>
+                                                              <InArgument x:TypeArguments="x:Boolean" />
+                                                            </uix:VerifyExecutionOptions.Retry>
+                                                            <uix:VerifyExecutionOptions.Timeout>
+                                                              <InArgument x:TypeArguments="x:Double" />
+                                                            </uix:VerifyExecutionOptions.Timeout>
+                                                          </uix:VerifyExecutionOptions>
+                                                        </uix:NClick.VerifyOptions>
+                                                      </uix:NClick>
+                                                      <ui:RepeatNumberOfTimesX DisplayName="Repetir número de veces" sap:VirtualizedContainerService.HintSize="484,488" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_4" NumberOfTimes="[diasDiferencia * -1]" StartAt="1">
+                                                        <ui:RepeatNumberOfTimesX.Body>
+                                                          <ActivityAction x:TypeArguments="x:Int32">
+                                                            <ActivityAction.Argument>
+                                                              <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                                                            </ActivityAction.Argument>
+                                                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,301" sap2010:WorkflowViewState.IdRef="Sequence_310">
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Fecha recaudo'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_165" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Text="%[k(Up)]" Version="V4">
+                                                                <uix:NTypeInto.Target>
+                                                                  <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="6825c54d-72e9-481e-8950-886316b55c33" CvElementArea="471, 274, 102, 21" CvType="InputBox" DesignTimeRectangle="470, 326, 102, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="12f74d52-c054-4d76-8939-3b648d3b6fd5" InformativeScreenshot="b6d6918fc5b40b89a16e9414af96649a.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3S0gzTld1dlZReTVnSGxvY0VpbkZCN29sVnllMkdscVhpd0FkSTh1MVk5TzRidzREUjhGclRjM3AzZGxoMHc5cWJhYzZ6aTE2VVF4N1g5WHBaL1FMVUtuTlpwWlUxOHZsSFM3Y3RxVUxFQVU2MjZjQVIyTU81YklCM2dPU0l5ZWIwVHlueWNYRnczUnplSDI3d0JqTkljbE9PVzVacXRUTWQ5aXFLMERO*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+                                                                    <uix:TargetAnchorable.Anchors>
+                                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                        <uix:Target CVScreenId="6825c54d-72e9-481e-8950-886316b55c33" CvTextArea="383, 279, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="383, 331, 88, 12" ElementType="Text" Guid="cc0ac9b7-4863-4ca4-bc19-a5f6c4ded4f0" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                                      </scg:List>
+                                                                    </uix:TargetAnchorable.Anchors>
+                                                                    <uix:TargetAnchorable.PointOffset>
+                                                                      <uix:PointOffset Position="TopLeft" X="9" Y="14" />
+                                                                    </uix:TargetAnchorable.PointOffset>
+                                                                  </uix:TargetAnchorable>
+                                                                </uix:NTypeInto.Target>
+                                                              </uix:NTypeInto>
+                                                            </Sequence>
+                                                          </ActivityAction>
+                                                        </ui:RepeatNumberOfTimesX.Body>
+                                                      </ui:RepeatNumberOfTimesX>
+                                                    </Sequence>
+                                                  </If.Else>
+                                                </If>
+                                                <If Condition="[mesesDiferencia &gt; 0]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="If_71">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <If.Then>
+                                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="518,773" sap2010:WorkflowViewState.IdRef="Sequence_308">
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Fecha recaudo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,225" sap2010:WorkflowViewState.IdRef="NClick_556" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
+                                                        <uix:NClick.Target>
+                                                          <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="ab679b91-2f90-4ff8-95ed-fe25235f59fe" ContentHash="lwF1mCwUoUCpZORKWIjQtA" CvElementArea="470, 326, 102, 22" CvType="InputBox" DesignTimeRectangle="470, 326, 102, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="4174b20f-c977-4ea8-85d6-6bf74d95e937" InformativeScreenshot="dc3a9236f852afdbcc8ea97ed05b50e0.png" IsResponsive="True" Reference="LQi3Th_3VEK_gQHqxSrAOQ/_en4QqV1P0uoBpq2bIWyZg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3SE55eVVRUCtFWFBKeituWHRyT0lOaFdhVStPSVRlODhURmNvbSs1THg0RjdUNEpCc0tsM0VnN3NJVkZEUjk2Ymk4L1VBam5pdldFR2tUYjBrN3dONWpUME5pbzVXK253WDR2RGgrcU5zUUdGUW0zQVVFL0N1b1dpUXFzWkFQSTViZEhTeEYzVzcvK0g4dXBBbDhlVnZ5enlxdzZEYUNnNU11bVlVd2pk*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+                                                            <uix:TargetAnchorable.Anchors>
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                <uix:Target CVScreenId="ab679b91-2f90-4ff8-95ed-fe25235f59fe" CvTextArea="383, 331, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="383, 331, 88, 12" ElementType="Text" Guid="aef367a4-2955-4a2a-99ab-8acf3f67153b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                              </scg:List>
+                                                            </uix:TargetAnchorable.Anchors>
+                                                            <uix:TargetAnchorable.PointOffset>
+                                                              <uix:PointOffset Position="BottomLeft" X="27" Y="-12" />
+                                                            </uix:TargetAnchorable.PointOffset>
+                                                          </uix:TargetAnchorable>
+                                                        </uix:NClick.Target>
+                                                        <uix:NClick.VerifyOptions>
+                                                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                            <uix:VerifyExecutionOptions.Retry>
+                                                              <InArgument x:TypeArguments="x:Boolean" />
+                                                            </uix:VerifyExecutionOptions.Retry>
+                                                            <uix:VerifyExecutionOptions.Timeout>
+                                                              <InArgument x:TypeArguments="x:Double" />
+                                                            </uix:VerifyExecutionOptions.Timeout>
+                                                          </uix:VerifyExecutionOptions>
+                                                        </uix:NClick.VerifyOptions>
+                                                      </uix:NClick>
+                                                      <ui:RepeatNumberOfTimesX DisplayName="Repetir número de veces" sap:VirtualizedContainerService.HintSize="484,488" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_8" NumberOfTimes="[mesesDiferencia]" StartAt="1">
+                                                        <ui:RepeatNumberOfTimesX.Body>
+                                                          <ActivityAction x:TypeArguments="x:Int32">
+                                                            <ActivityAction.Argument>
+                                                              <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                                                            </ActivityAction.Argument>
+                                                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,301" sap2010:WorkflowViewState.IdRef="Sequence_360">
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Fecha recaudo'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_200" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Text="%[k(Down)]" Version="V4">
+                                                                <uix:NTypeInto.Target>
+                                                                  <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvElementArea="423, 311, 92, 21" CvType="InputBox" DesignTimeRectangle="423, 311, 92, 20" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="fc29f0c6-7235-4e9c-a605-dfd801be850a" InformativeScreenshot="0320d50ca0cea64b00f650ae1e4038a4.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3ZXlPcEtUYzN0aURNdjFRTEluSXEwNW14MFNNaXN6dnNJMi9takZncHFMdFJUUERlT0RVS3VlZkwzUkxRTzZURGNwb05zcWZHYUpxT1YrTWw5MUw1TFo2MXd6SThFQWZaUnBsd0wwYnlOcEgza2hBckgzMUZURXlHUVdIRzh5VE83TFRBcmRLWmdLV2Z1anFGSkNTYVl5NEtDY2tNYitpNHBHTHZHQlJn*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+                                                                    <uix:TargetAnchorable.Anchors>
+                                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="3">
+                                                                        <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="345, 316, 80, 11" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 316, 79, 11" ElementType="Text" Guid="c956f19b-c007-41c3-9675-9cf13bf5262d" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                                        <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="518, 316, 22, 11" CvTextArgument="Ref:" CvType="Text" DesignTimeRectangle="519, 316, 21, 11" ElementType="Text" Guid="b31cbb76-da00-403b-9ff7-b033998a4058" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                                        <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="390, 295, 34, 10" CvTextArgument="Fecha:" CvType="Text" DesignTimeRectangle="391, 295, 33, 10" ElementType="Text" Guid="663d55b2-eef1-4101-abe3-af2d2190d153" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                                      </scg:List>
+                                                                    </uix:TargetAnchorable.Anchors>
+                                                                    <uix:TargetAnchorable.PointOffset>
+                                                                      <uix:PointOffset Position="BottomLeft" X="24" Y="-11" />
+                                                                    </uix:TargetAnchorable.PointOffset>
+                                                                  </uix:TargetAnchorable>
+                                                                </uix:NTypeInto.Target>
+                                                              </uix:NTypeInto>
+                                                            </Sequence>
+                                                          </ActivityAction>
+                                                        </ui:RepeatNumberOfTimesX.Body>
+                                                      </ui:RepeatNumberOfTimesX>
+                                                    </Sequence>
+                                                  </If.Then>
+                                                  <If.Else>
+                                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="518,773" sap2010:WorkflowViewState.IdRef="Sequence_309">
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Fecha recaudo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,225" sap2010:WorkflowViewState.IdRef="NClick_559" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
+                                                        <uix:NClick.Target>
+                                                          <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="ed9176de-5fbf-4140-984e-829b18dacfad" ContentHash="7gm3HELES0mVR_hGU7r9bA" CvElementArea="471, 326, 102, 21" CvType="InputBox" DesignTimeRectangle="470, 326, 102, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="566f8868-8bec-4800-817e-4dd7773a2efc" InformativeScreenshot="a30861363bee6d3f070540dc486f4f3d.png" IsResponsive="True" Reference="hpQ-6nQf1kqO2I2Lk_K4Dw/JzEVE11yd0GEgV013RY0LA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3S0gzTld1dlZReTVnSGxvY0VpbkZCN29sVnllMkdscVhpd0FkSTh1MVk5TzRidzREUjhGclRjM3AzZGxoMHc5cWJhYzZ6aTE2VVF4N1g5WHBaL1FMVUtuTlpwWlUxOHZsSFM3Y3RxVUxFQVU2MjZjQVIyTU81YklCM2dPU0l5ZWIwVHlueWNYRnczUnplSDI3d0JqTkljbE9PVzVacXRUTWQ5aXFLMERO*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+                                                            <uix:TargetAnchorable.Anchors>
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                <uix:Target CVScreenId="ed9176de-5fbf-4140-984e-829b18dacfad" CvTextArea="383, 331, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="383, 331, 88, 12" ElementType="Text" Guid="0a494254-5590-4839-8d43-3866840e2f59" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                              </scg:List>
+                                                            </uix:TargetAnchorable.Anchors>
+                                                            <uix:TargetAnchorable.PointOffset>
+                                                              <uix:PointOffset Position="BottomLeft" X="10" Y="-10" />
+                                                            </uix:TargetAnchorable.PointOffset>
+                                                          </uix:TargetAnchorable>
+                                                        </uix:NClick.Target>
+                                                        <uix:NClick.VerifyOptions>
+                                                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                            <uix:VerifyExecutionOptions.Retry>
+                                                              <InArgument x:TypeArguments="x:Boolean" />
+                                                            </uix:VerifyExecutionOptions.Retry>
+                                                            <uix:VerifyExecutionOptions.Timeout>
+                                                              <InArgument x:TypeArguments="x:Double" />
+                                                            </uix:VerifyExecutionOptions.Timeout>
+                                                          </uix:VerifyExecutionOptions>
+                                                        </uix:NClick.VerifyOptions>
+                                                      </uix:NClick>
+                                                      <ui:RepeatNumberOfTimesX DisplayName="Repetir número de veces" sap:VirtualizedContainerService.HintSize="484,488" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_3" NumberOfTimes="[mesesDiferencia * -1]" StartAt="1">
+                                                        <ui:RepeatNumberOfTimesX.Body>
+                                                          <ActivityAction x:TypeArguments="x:Int32">
+                                                            <ActivityAction.Argument>
+                                                              <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                                                            </ActivityAction.Argument>
+                                                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,301" sap2010:WorkflowViewState.IdRef="Sequence_256">
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Fecha recaudo'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_155" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Text="%[k(Up)]" Version="V4">
+                                                                <uix:NTypeInto.Target>
+                                                                  <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="6825c54d-72e9-481e-8950-886316b55c33" CvElementArea="471, 274, 102, 21" CvType="InputBox" DesignTimeRectangle="423, 311, 92, 20" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="12f74d52-c054-4d76-8939-3b648d3b6fd5" InformativeScreenshot="be777467ee02eb48245b935a0fb8bf38.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3S0gzTld1dlZReTVnSGxvY0VpbkZCN29sVnllMkdscVhpd0FkSTh1MVk5TzRidzREUjhGclRjM3AzZGxoMHc5cWJhYzZ6aTE2VVF4N1g5WHBaL1FMVUtuTlpwWlUxOHZsSFM3Y3RxVUxFQVU2MjZjQVIyTU81YklCM2dPU0l5ZWIwVHlueWNYRnczUnplSDI3d0JqTkljbE9PVzVacXRUTWQ5aXFLMERO*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+                                                                    <uix:TargetAnchorable.Anchors>
+                                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                        <uix:Target CVScreenId="6825c54d-72e9-481e-8950-886316b55c33" CvTextArea="383, 279, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 316, 79, 11" ElementType="Text" Guid="cc0ac9b7-4863-4ca4-bc19-a5f6c4ded4f0" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                                      </scg:List>
+                                                                    </uix:TargetAnchorable.Anchors>
+                                                                    <uix:TargetAnchorable.PointOffset>
+                                                                      <uix:PointOffset Position="TopLeft" X="24" Y="12" />
+                                                                    </uix:TargetAnchorable.PointOffset>
+                                                                  </uix:TargetAnchorable>
+                                                                </uix:NTypeInto.Target>
+                                                              </uix:NTypeInto>
+                                                            </Sequence>
+                                                          </ActivityAction>
+                                                        </ui:RepeatNumberOfTimesX.Body>
+                                                      </ui:RepeatNumberOfTimesX>
+                                                    </Sequence>
+                                                  </If.Else>
+                                                </If>
                                               </Sequence>
-                                            </If.Else>
-                                          </If>
-                                          <If Condition="[mesesDiferencia &gt; 0]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="1184,57" sap2010:WorkflowViewState.IdRef="If_71">
-                                            <sap:WorkflowViewStateService.ViewState>
-                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
-                                              </scg:Dictionary>
-                                            </sap:WorkflowViewStateService.ViewState>
-                                            <If.Then>
-                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="518,773" sap2010:WorkflowViewState.IdRef="Sequence_308">
-                                                <sap:WorkflowViewStateService.ViewState>
-                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                  </scg:Dictionary>
-                                                </sap:WorkflowViewStateService.ViewState>
-                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Fecha recaudo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,225" sap2010:WorkflowViewState.IdRef="NClick_556" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
-                                                  <uix:NClick.Target>
-                                                    <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="ab679b91-2f90-4ff8-95ed-fe25235f59fe" ContentHash="lwF1mCwUoUCpZORKWIjQtA" CvElementArea="470, 326, 102, 22" CvType="InputBox" DesignTimeRectangle="470, 326, 102, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="4174b20f-c977-4ea8-85d6-6bf74d95e937" InformativeScreenshot="dc3a9236f852afdbcc8ea97ed05b50e0.png" IsResponsive="True" Reference="LQi3Th_3VEK_gQHqxSrAOQ/_en4QqV1P0uoBpq2bIWyZg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3SE55eVVRUCtFWFBKeituWHRyT0lOaFdhVStPSVRlODhURmNvbSs1THg0RjdUNEpCc0tsM0VnN3NJVkZEUjk2Ymk4L1VBam5pdldFR2tUYjBrN3dONWpUME5pbzVXK253WDR2RGgrcU5zUUdGUW0zQVVFL0N1b1dpUXFzWkFQSTViZEhTeEYzVzcvK0g4dXBBbDhlVnZ5enlxdzZEYUNnNU11bVlVd2pk*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
-                                                      <uix:TargetAnchorable.Anchors>
-                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                          <uix:Target CVScreenId="ab679b91-2f90-4ff8-95ed-fe25235f59fe" CvTextArea="383, 331, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="383, 331, 88, 12" ElementType="Text" Guid="aef367a4-2955-4a2a-99ab-8acf3f67153b" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                        </scg:List>
-                                                      </uix:TargetAnchorable.Anchors>
-                                                      <uix:TargetAnchorable.PointOffset>
-                                                        <uix:PointOffset Position="BottomLeft" X="27" Y="-12" />
-                                                      </uix:TargetAnchorable.PointOffset>
-                                                    </uix:TargetAnchorable>
-                                                  </uix:NClick.Target>
-                                                  <uix:NClick.VerifyOptions>
-                                                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                      <uix:VerifyExecutionOptions.Retry>
-                                                        <InArgument x:TypeArguments="x:Boolean" />
-                                                      </uix:VerifyExecutionOptions.Retry>
-                                                      <uix:VerifyExecutionOptions.Timeout>
-                                                        <InArgument x:TypeArguments="x:Double" />
-                                                      </uix:VerifyExecutionOptions.Timeout>
-                                                    </uix:VerifyExecutionOptions>
-                                                  </uix:NClick.VerifyOptions>
-                                                </uix:NClick>
-                                                <ui:RepeatNumberOfTimesX DisplayName="Repetir número de veces" sap:VirtualizedContainerService.HintSize="484,488" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_8" NumberOfTimes="[mesesDiferencia]" StartAt="1">
-                                                  <ui:RepeatNumberOfTimesX.Body>
-                                                    <ActivityAction x:TypeArguments="x:Int32">
-                                                      <ActivityAction.Argument>
-                                                        <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
-                                                      </ActivityAction.Argument>
-                                                      <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,301" sap2010:WorkflowViewState.IdRef="Sequence_360">
-                                                        <sap:WorkflowViewStateService.ViewState>
-                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                          </scg:Dictionary>
-                                                        </sap:WorkflowViewStateService.ViewState>
-                                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Fecha recaudo'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_200" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Text="%[k(Down)]" Version="V4">
-                                                          <uix:NTypeInto.Target>
-                                                            <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvElementArea="423, 311, 92, 21" CvType="InputBox" DesignTimeRectangle="423, 311, 92, 20" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="fc29f0c6-7235-4e9c-a605-dfd801be850a" InformativeScreenshot="0320d50ca0cea64b00f650ae1e4038a4.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3ZXlPcEtUYzN0aURNdjFRTEluSXEwNW14MFNNaXN6dnNJMi9takZncHFMdFJUUERlT0RVS3VlZkwzUkxRTzZURGNwb05zcWZHYUpxT1YrTWw5MUw1TFo2MXd6SThFQWZaUnBsd0wwYnlOcEgza2hBckgzMUZURXlHUVdIRzh5VE83TFRBcmRLWmdLV2Z1anFGSkNTYVl5NEtDY2tNYitpNHBHTHZHQlJn*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
-                                                              <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="3">
-                                                                  <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="345, 316, 80, 11" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 316, 79, 11" ElementType="Text" Guid="c956f19b-c007-41c3-9675-9cf13bf5262d" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                                  <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="518, 316, 22, 11" CvTextArgument="Ref:" CvType="Text" DesignTimeRectangle="519, 316, 21, 11" ElementType="Text" Guid="b31cbb76-da00-403b-9ff7-b033998a4058" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                                  <uix:Target CVScreenId="4b2622d4-ef45-45be-9576-34dfe618f59e" CvTextArea="390, 295, 34, 10" CvTextArgument="Fecha:" CvType="Text" DesignTimeRectangle="391, 295, 33, 10" ElementType="Text" Guid="663d55b2-eef1-4101-abe3-af2d2190d153" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                                </scg:List>
-                                                              </uix:TargetAnchorable.Anchors>
-                                                              <uix:TargetAnchorable.PointOffset>
-                                                                <uix:PointOffset Position="BottomLeft" X="24" Y="-11" />
-                                                              </uix:TargetAnchorable.PointOffset>
-                                                            </uix:TargetAnchorable>
-                                                          </uix:NTypeInto.Target>
-                                                        </uix:NTypeInto>
-                                                      </Sequence>
-                                                    </ActivityAction>
-                                                  </ui:RepeatNumberOfTimesX.Body>
-                                                </ui:RepeatNumberOfTimesX>
-                                              </Sequence>
-                                            </If.Then>
-                                            <If.Else>
-                                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="518,773" sap2010:WorkflowViewState.IdRef="Sequence_309">
-                                                <sap:WorkflowViewStateService.ViewState>
-                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                  </scg:Dictionary>
-                                                </sap:WorkflowViewStateService.ViewState>
-                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Fecha recaudo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,225" sap2010:WorkflowViewState.IdRef="NClick_559" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
-                                                  <uix:NClick.Target>
-                                                    <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="ed9176de-5fbf-4140-984e-829b18dacfad" ContentHash="7gm3HELES0mVR_hGU7r9bA" CvElementArea="471, 326, 102, 21" CvType="InputBox" DesignTimeRectangle="470, 326, 102, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="566f8868-8bec-4800-817e-4dd7773a2efc" InformativeScreenshot="a30861363bee6d3f070540dc486f4f3d.png" IsResponsive="True" Reference="hpQ-6nQf1kqO2I2Lk_K4Dw/JzEVE11yd0GEgV013RY0LA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3S0gzTld1dlZReTVnSGxvY0VpbkZCN29sVnllMkdscVhpd0FkSTh1MVk5TzRidzREUjhGclRjM3AzZGxoMHc5cWJhYzZ6aTE2VVF4N1g5WHBaL1FMVUtuTlpwWlUxOHZsSFM3Y3RxVUxFQVU2MjZjQVIyTU81YklCM2dPU0l5ZWIwVHlueWNYRnczUnplSDI3d0JqTkljbE9PVzVacXRUTWQ5aXFLMERO*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
-                                                      <uix:TargetAnchorable.Anchors>
-                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                          <uix:Target CVScreenId="ed9176de-5fbf-4140-984e-829b18dacfad" CvTextArea="383, 331, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="383, 331, 88, 12" ElementType="Text" Guid="0a494254-5590-4839-8d43-3866840e2f59" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                        </scg:List>
-                                                      </uix:TargetAnchorable.Anchors>
-                                                      <uix:TargetAnchorable.PointOffset>
-                                                        <uix:PointOffset Position="BottomLeft" X="10" Y="-10" />
-                                                      </uix:TargetAnchorable.PointOffset>
-                                                    </uix:TargetAnchorable>
-                                                  </uix:NClick.Target>
-                                                  <uix:NClick.VerifyOptions>
-                                                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                      <uix:VerifyExecutionOptions.Retry>
-                                                        <InArgument x:TypeArguments="x:Boolean" />
-                                                      </uix:VerifyExecutionOptions.Retry>
-                                                      <uix:VerifyExecutionOptions.Timeout>
-                                                        <InArgument x:TypeArguments="x:Double" />
-                                                      </uix:VerifyExecutionOptions.Timeout>
-                                                    </uix:VerifyExecutionOptions>
-                                                  </uix:NClick.VerifyOptions>
-                                                </uix:NClick>
-                                                <ui:RepeatNumberOfTimesX DisplayName="Repetir número de veces" sap:VirtualizedContainerService.HintSize="484,488" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_3" NumberOfTimes="[mesesDiferencia * -1]" StartAt="1">
-                                                  <ui:RepeatNumberOfTimesX.Body>
-                                                    <ActivityAction x:TypeArguments="x:Int32">
-                                                      <ActivityAction.Argument>
-                                                        <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
-                                                      </ActivityAction.Argument>
-                                                      <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,301" sap2010:WorkflowViewState.IdRef="Sequence_256">
-                                                        <sap:WorkflowViewStateService.ViewState>
-                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                          </scg:Dictionary>
-                                                        </sap:WorkflowViewStateService.ViewState>
-                                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Fecha recaudo'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_155" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Text="%[k(Up)]" Version="V4">
-                                                          <uix:NTypeInto.Target>
-                                                            <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="6825c54d-72e9-481e-8950-886316b55c33" CvElementArea="471, 274, 102, 21" CvType="InputBox" DesignTimeRectangle="423, 311, 92, 20" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="12f74d52-c054-4d76-8939-3b648d3b6fd5" InformativeScreenshot="be777467ee02eb48245b935a0fb8bf38.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3S0gzTld1dlZReTVnSGxvY0VpbkZCN29sVnllMkdscVhpd0FkSTh1MVk5TzRidzREUjhGclRjM3AzZGxoMHc5cWJhYzZ6aTE2VVF4N1g5WHBaL1FMVUtuTlpwWlUxOHZsSFM3Y3RxVUxFQVU2MjZjQVIyTU81YklCM2dPU0l5ZWIwVHlueWNYRnczUnplSDI3d0JqTkljbE9PVzVacXRUTWQ5aXFLMERO*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
-                                                              <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                  <uix:Target CVScreenId="6825c54d-72e9-481e-8950-886316b55c33" CvTextArea="383, 279, 88, 12" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 316, 79, 11" ElementType="Text" Guid="cc0ac9b7-4863-4ca4-bc19-a5f6c4ded4f0" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                                                                </scg:List>
-                                                              </uix:TargetAnchorable.Anchors>
-                                                              <uix:TargetAnchorable.PointOffset>
-                                                                <uix:PointOffset Position="TopLeft" X="24" Y="12" />
-                                                              </uix:TargetAnchorable.PointOffset>
-                                                            </uix:TargetAnchorable>
-                                                          </uix:NTypeInto.Target>
-                                                        </uix:NTypeInto>
-                                                      </Sequence>
-                                                    </ActivityAction>
-                                                  </ui:RepeatNumberOfTimesX.Body>
-                                                </ui:RepeatNumberOfTimesX>
-                                              </Sequence>
-                                            </If.Else>
-                                          </If>
+                                            </ui:CommentOut.Body>
+                                          </ui:CommentOut>
                                           <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="False" DisplayName="Clic 'Inputbox(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1184,57" sap2010:WorkflowViewState.IdRef="NClick_527" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
                                             <uix:NClick.Target>
                                               <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="aabddc33-0971-410b-be0c-16b3da1d0393" CvElementArea="99, 350, 141, 22" CvType="InputBox" DesignTimeRectangle="99, 350, 141, 22" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="1d9c645c-6843-4932-bb10-d46232255b35" InformativeScreenshot="5c3acf692226b4c384f0710a1e92d188.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3TkRiVFVIYWRZUVYwLzV2QnZsSnR2QlBGZHVCOExrOXdQbjM5OVF4V1FFMzZ5RS9QaGJKK2o5L1lJWFF3NTF2ckdVckdXbUVMckV3ZWlpWXBiT3M4dnZvUTMyYXpxVkdkWXhBb1N5MDk4RnZvZDBoZXFTZjhOK1d5VTMxM0lGaUVhNVhjUHBiR1NEN09SSmZ0MWFyUGRKTm1FVUorUzNGWEVHSE1qOXZy*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
