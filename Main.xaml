@@ -321,11 +321,15 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="1007,671" sap2010:WorkflowViewState.IdRef="Sequence_18">
+  <Sequence sap:VirtualizedContainerService.HintSize="1241,671" sap2010:WorkflowViewState.IdRef="Sequence_18">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="email" />
       <Variable x:TypeArguments="x:String" Name="password" />
-      <Variable x:TypeArguments="x:Int32" Default="0" Name="idSiessaFact" />
+      <Variable x:TypeArguments="x:Int32" Name="idSiessaFact">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" />
+        </Variable.Default>
+      </Variable>
       <Variable x:TypeArguments="sd:DataTable" Name="dataTableCreada" />
       <Variable x:TypeArguments="x:String" Name="TIPO_DE_CUENTA" />
     </Sequence.Variables>
@@ -334,7 +338,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart DisplayName="Main" sap:VirtualizedContainerService.HintSize="1013,556.04" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart DisplayName="Main" sap:VirtualizedContainerService.HintSize="600,648" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="DTInfoToChange" />
         <Variable x:TypeArguments="x:Boolean" Name="DTWithInfo" />
@@ -1244,7 +1248,7 @@
             <av:PointCollection x:Key="ConnectorLocation">345,250 405,250</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Creacion de recibos de caja" sap:VirtualizedContainerService.HintSize="1430,48355" sap2010:WorkflowViewState.IdRef="Sequence_246">
+        <Sequence DisplayName="Creacion de recibos de caja" sap:VirtualizedContainerService.HintSize="1430,48654" sap2010:WorkflowViewState.IdRef="Sequence_246">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:Double" Name="descuento_real" />
             <Variable x:TypeArguments="x:Boolean" Name="debe_digitar_auxiliar" />
@@ -1256,7 +1260,11 @@
             <Variable x:TypeArguments="x:String" Name="ARCHIVO_SOPORTE" />
             <Variable x:TypeArguments="x:String" Name="LINK_IMAGEN" />
             <Variable x:TypeArguments="x:String" Name="CO" />
-            <Variable x:TypeArguments="x:Int32" Default="0" Name="tamañoArray2" />
+            <Variable x:TypeArguments="x:Int32" Name="tamañoArray2">
+              <Variable.Default>
+                <Literal x:TypeArguments="x:Int32" />
+              </Variable.Default>
+            </Variable>
           </Sequence.Variables>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1264,15 +1272,19 @@
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1396,48295" sap2010:WorkflowViewState.IdRef="TryCatch_7">
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1396,48594" sap2010:WorkflowViewState.IdRef="TryCatch_7">
             <TryCatch.Try>
-              <Sequence DisplayName="Creacion de recibos de caja" sap:VirtualizedContainerService.HintSize="1394,47889" sap2010:WorkflowViewState.IdRef="Sequence_247">
+              <Sequence DisplayName="Creacion de recibos de caja" sap:VirtualizedContainerService.HintSize="1394,48188" sap2010:WorkflowViewState.IdRef="Sequence_247">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="sd:DataTable" Name="dataTableAPI" />
                   <Variable x:TypeArguments="x:String" Name="respuestaAPI" />
                   <Variable x:TypeArguments="njl:JObject" Name="jsonObject" />
                   <Variable x:TypeArguments="njl:JArray" Name="DjArray" />
-                  <Variable x:TypeArguments="x:Int32" Default="0" Name="tamañoArray" />
+                  <Variable x:TypeArguments="x:Int32" Name="tamañoArray">
+                    <Variable.Default>
+                      <Literal x:TypeArguments="x:Int32" />
+                    </Variable.Default>
+                  </Variable>
                   <Variable x:TypeArguments="sd:DataTable" Name="BANCOS" />
                   <Variable x:TypeArguments="x:String" Name="NUMFACTURASIESSA" />
                   <Variable x:TypeArguments="x:String" Name="UsuarioInicial" />
@@ -1282,17 +1294,33 @@
                   <Variable x:TypeArguments="x:Boolean" Name="existe_saldo_excedente" />
                   <Variable x:TypeArguments="x:String" Name="monto_excedente" />
                   <Variable x:TypeArguments="x:Boolean" Name="existen_saldos" />
-                  <Variable x:TypeArguments="x:Int32" Default="0" Name="dias_Diferencia_Recaudo_a_Creacion" />
-                  <Variable x:TypeArguments="x:Int32" Default="0" Name="meses_Diferencia_Recaudo_a_Creacion" />
+                  <Variable x:TypeArguments="x:Int32" Name="dias_Diferencia_Recaudo_a_Creacion">
+                    <Variable.Default>
+                      <Literal x:TypeArguments="x:Int32" />
+                    </Variable.Default>
+                  </Variable>
+                  <Variable x:TypeArguments="x:Int32" Name="meses_Diferencia_Recaudo_a_Creacion">
+                    <Variable.Default>
+                      <Literal x:TypeArguments="x:Int32" />
+                    </Variable.Default>
+                  </Variable>
                   <Variable x:TypeArguments="sd:DataTable" Name="data_facturas" />
                   <Variable x:TypeArguments="x:Boolean" Name="stop_Dias" />
                   <Variable x:TypeArguments="x:Boolean" Name="stop_Meses" />
                   <Variable x:TypeArguments="x:Decimal" Name="abono_equivocado" />
                   <Variable x:TypeArguments="x:Decimal" Name="total_factura" />
-                  <Variable x:TypeArguments="x:Int32" Default="0" Name="intentos_fallidos_dias" />
+                  <Variable x:TypeArguments="x:Int32" Name="intentos_fallidos_dias">
+                    <Variable.Default>
+                      <Literal x:TypeArguments="x:Int32" />
+                    </Variable.Default>
+                  </Variable>
                   <Variable x:TypeArguments="x:Boolean" Name="procesado_con_errores" />
                   <Variable x:TypeArguments="x:String" Name="saldo_pendiente" />
-                  <Variable x:TypeArguments="x:Int32" Default="0" Name="intentos_fallidos_al_encontrar_factura" />
+                  <Variable x:TypeArguments="x:Int32" Name="intentos_fallidos_al_encontrar_factura">
+                    <Variable.Default>
+                      <Literal x:TypeArguments="x:Int32" />
+                    </Variable.Default>
+                  </Variable>
                 </Sequence.Variables>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1451,9 +1479,9 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:DeserializeJson>
-                <If Condition="[jsonObject IsNot Nothing AndAlso&#xA;jsonObject.ContainsKey(&quot;resultado&quot;) AndAlso&#xA;jsonObject(&quot;resultado&quot;) IsNot Nothing AndAlso&#xA;TypeOf jsonObject(&quot;resultado&quot;) Is JArray]" sap:VirtualizedContainerService.HintSize="1360,46754" sap2010:WorkflowViewState.IdRef="If_120">
+                <If Condition="[jsonObject IsNot Nothing AndAlso&#xA;jsonObject.ContainsKey(&quot;resultado&quot;) AndAlso&#xA;jsonObject(&quot;resultado&quot;) IsNot Nothing AndAlso&#xA;TypeOf jsonObject(&quot;resultado&quot;) Is JArray]" sap:VirtualizedContainerService.HintSize="1360,47053" sap2010:WorkflowViewState.IdRef="If_120">
                   <If.Then>
-                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1358,46600" sap2010:WorkflowViewState.IdRef="Sequence_484">
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1358,46899" sap2010:WorkflowViewState.IdRef="Sequence_484">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1482,9 +1510,9 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </Assign>
-                      <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="Mientras" sap:VirtualizedContainerService.HintSize="1324,46314" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_15">
+                      <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="Mientras" sap:VirtualizedContainerService.HintSize="1324,46613" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_15">
                         <ui:InterruptibleWhile.Body>
-                          <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="1322,46193" sap2010:WorkflowViewState.IdRef="Sequence_248">
+                          <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="1322,46492" sap2010:WorkflowViewState.IdRef="Sequence_248">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="idFactura" />
                               <Variable x:TypeArguments="x:String" Name="respuestaApi2" />
@@ -1599,7 +1627,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </Assign>
-                            <ui:BuildDataTable DataTable="[data_facturas]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="BuildDataTable_21" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;type_doc&quot; msdata:Caption=&quot;&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;num_doc&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;subtotal&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;descuento&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;valor_inicial&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;400&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;valor_pagado&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;400&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;num_cuota&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
+                            <ui:BuildDataTable DataTable="[data_facturas]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="1288,57" sap2010:WorkflowViewState.IdRef="BuildDataTable_21" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;type_doc&quot; msdata:Caption=&quot;&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;num_doc&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;subtotal&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;descuento&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;valor_inicial&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;400&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;valor_pagado&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;400&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;num_cuota&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1607,7 +1635,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:BuildDataTable>
-                            <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="484,433" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_16" NumberOfTimes="[DjArray2.Count]" StartAt="1">
+                            <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="1288,57" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_16" NumberOfTimes="[DjArray2.Count]" StartAt="1">
                               <ui:RepeatNumberOfTimesX.Body>
                                 <ActivityAction x:TypeArguments="x:Int32">
                                   <ActivityAction.Argument>
@@ -1634,7 +1662,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:RepeatNumberOfTimesX>
-                            <ui:SortDataTable ColumnIndex="{x:Null}" DataColumn="{x:Null}" ColumnName="num_doc" DataTable="[data_facturas]" DisplayName="Sort Data Table" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="SortDataTable_1" Order="Ascending" OutputDataTable="[data_facturas]" SortOrder="Ascending">
+                            <ui:SortDataTable ColumnIndex="{x:Null}" DataColumn="{x:Null}" ColumnName="num_doc" DataTable="[data_facturas]" DisplayName="Sort Data Table" sap:VirtualizedContainerService.HintSize="1288,57" sap2010:WorkflowViewState.IdRef="SortDataTable_1" Order="Ascending" OutputDataTable="[data_facturas]" SortOrder="Ascending">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1642,7 +1670,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:SortDataTable>
-                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1288,45082" sap2010:WorkflowViewState.IdRef="TryCatch_8">
+                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1288,45757" sap2010:WorkflowViewState.IdRef="TryCatch_8">
                               <TryCatch.Finally>
                                 <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="1286,25" sap2010:WorkflowViewState.IdRef="Sequence_553">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -1654,7 +1682,7 @@
                                 </Sequence>
                               </TryCatch.Finally>
                               <TryCatch.Try>
-                                <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="1286,44922" sap2010:WorkflowViewState.IdRef="Sequence_259">
+                                <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="1286,45597" sap2010:WorkflowViewState.IdRef="Sequence_259">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1735,20 +1763,28 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </uix:NApplicationCard>
-                                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome HTML5(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1252,44435" sap2010:WorkflowViewState.IdRef="NApplicationCard_31" InteractionMode="DebuggerApi" ScopeGuid="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V2">
+                                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome HTML5(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1252,45110" sap2010:WorkflowViewState.IdRef="NApplicationCard_31" InteractionMode="DebuggerApi" ScopeGuid="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V2">
                                     <uix:NApplicationCard.Body>
                                       <ActivityAction x:TypeArguments="x:Object">
                                         <ActivityAction.Argument>
                                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                         </ActivityAction.Argument>
-                                        <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1218,44146" sap2010:WorkflowViewState.IdRef="Sequence_249">
+                                        <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1218,44821" sap2010:WorkflowViewState.IdRef="Sequence_249">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="x:String" Name="FACTNUMB" />
                                             <Variable x:TypeArguments="x:String" Name="Doc_Tercero" />
                                             <Variable x:TypeArguments="ui:Image" Name="IMGINVOICE" />
                                             <Variable x:TypeArguments="x:String" Name="FechaRecaudo" />
-                                            <Variable x:TypeArguments="x:Int32" Default="0" Name="diasDiferencia" />
-                                            <Variable x:TypeArguments="x:Int32" Default="0" Name="mesesDiferencia" />
+                                            <Variable x:TypeArguments="x:Int32" Name="diasDiferencia">
+                                              <Variable.Default>
+                                                <Literal x:TypeArguments="x:Int32" />
+                                              </Variable.Default>
+                                            </Variable>
+                                            <Variable x:TypeArguments="x:Int32" Name="mesesDiferencia">
+                                              <Variable.Default>
+                                                <Literal x:TypeArguments="x:Int32" />
+                                              </Variable.Default>
+                                            </Variable>
                                             <Variable x:TypeArguments="x:String" Name="fecha_recaudo_incorrecta" />
                                             <Variable x:TypeArguments="x:String" Name="num_factura" />
                                           </Sequence.Variables>
@@ -2457,6 +2493,32 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </uix:NClick>
+                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fecha recaudo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1184,225" sap2010:WorkflowViewState.IdRef="NClick_828" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
+                                            <uix:NClick.Target>
+                                              <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="9b04b599-de64-451a-8db8-119f21a69c41" ContentHash="Ng1LR6fZPEqv_BDDymLoXg" CvElementArea="423, 258, 93, 20" CvType="InputBox" DesignTimeRectangle="423, 259, 92, 20" ElementType="InputBox" Guid="480c5f16-581d-4594-8bba-f152549cfd19" InformativeScreenshot="a6ae7568ca411c43c12a0ea5a8e495b5.png" IsResponsive="True" Reference="LQi3Th_3VEK_gQHqxSrAOQ/E4uL6xjzb0OH6Xi0Pf0cKw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3QS9oaUU5N20yV2liYmFRZjFJNFVEemVsT1VvVUYxU1ZuRG5ncHE1NXFTNWQ5SjRkZytYc1lzRGtKTWhManJXY2JBTThhWmFkQ0owcHVaN3dMYUVWK3M1Tk5Cb2xabXNidGdUNlB0YUxOMUp6MmltdUwxeURqSkpBTE5TVkt3Y0FyTGhUeUd3QzU1NGZRTmY1dmd0S3crRlA1RU41cWJvMTVrZWx4UDdO*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <uix:Target CVScreenId="9b04b599-de64-451a-8db8-119f21a69c41" CvTextArea="345, 264, 80, 11" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 264, 79, 11" ElementType="Text" Guid="61da4ed6-b062-451d-863b-b9ff57cdd86d" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                    <uix:Target CVScreenId="9b04b599-de64-451a-8db8-119f21a69c41" CvTextArea="518, 264, 22, 11" CvTextArgument="Ref:" CvType="Text" DesignTimeRectangle="519, 264, 21, 11" ElementType="Text" Guid="c0469c1d-521f-4fff-a733-1392e3fd8254" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                    <uix:Target CVScreenId="9b04b599-de64-451a-8db8-119f21a69c41" CvTextArea="390, 243, 34, 10" CvTextArgument="Fecha:" CvType="Text" DesignTimeRectangle="391, 243, 33, 10" ElementType="Text" Guid="f9c5ed9d-1c93-4af6-9e2e-d138e00d1047" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                                <uix:TargetAnchorable.PointOffset>
+                                                  <uix:PointOffset Position="BottomLeft" X="25" Y="-10" />
+                                                </uix:TargetAnchorable.PointOffset>
+                                              </uix:TargetAnchorable>
+                                            </uix:NClick.Target>
+                                            <uix:NClick.VerifyOptions>
+                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionOptions.Retry>
+                                                <uix:VerifyExecutionOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionOptions.Timeout>
+                                              </uix:VerifyExecutionOptions>
+                                            </uix:NClick.VerifyOptions>
+                                          </uix:NClick>
                                           <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Recibos de caja'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1184,57" sap2010:WorkflowViewState.IdRef="NClick_518" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
                                             <uix:NClick.Target>
                                               <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="994f0e40-3b65-41f7-b146-ed9aa9d8f8b0" CvTextArea="449, 259, 82, 15" CvTextArgument="Recibos de caja" CvType="Text" DesignTimeRectangle="449, 259, 82, 15" DesignTimeScaleFactor="1" ElementType="Text" Guid="ee8630d4-f0be-4b26-9a0b-4c2e989df59f" InformativeScreenshot="000bea6e82cdceb0319f534b218942e1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3SG9tb0QwUUJBNmxPREFDaEZzT2UxT0hueWw4WXB4S1FoRVRXcGlRV0x6Z1IxVEVYQndwUHpreEVuSUJPN3dqTHdlaXdocUMxcVd3dlcyYnF4VERHMm9NMC9xckxpeWVrYTNDeElFRTRvRHZxcWFTWDNKWHQ3TVdDcS9rT09xeHZhcDlEdTREZEhsQ2QyVjI1OU8wVmRBTWlyZC9YVEsrQXZPSVM0d1R3*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
@@ -2484,6 +2546,29 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </uix:NClick>
+                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fecha recaudo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1184,225" sap2010:WorkflowViewState.IdRef="NClick_827" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
+                                            <uix:NClick.Target>
+                                              <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="9b04b599-de64-451a-8db8-119f21a69c41" ContentHash="cBiW2Er0HkmjnhDDt7FACw" CvElementArea="423, 258, 93, 20" CvType="InputBox" DesignTimeRectangle="423, 259, 92, 20" ElementType="InputBox" Guid="6b1da01a-399b-40b9-97de-021b00e4ad92" InformativeScreenshot="14ba3a276b4d054146b608e559496f31.png" IsResponsive="True" Reference="LQi3Th_3VEK_gQHqxSrAOQ/T6ERwYoiA0OLuKFjA776MA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3QS9oaUU5N20yV2liYmFRZjFJNFVEemVsT1VvVUYxU1ZuRG5ncHE1NXFTNWQ5SjRkZytYc1lzRGtKTWhManJXY2JBTThhWmFkQ0owcHVaN3dMYUVWK3M1Tk5Cb2xabXNidGdUNlB0YUxOMUp6MmltdUwxeURqSkpBTE5TVkt3Y0FyTGhUeUd3QzU1NGZRTmY1dmd0S3crRlA1RU41cWJvMTVrZWx4UDdO*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <uix:Target CVScreenId="9b04b599-de64-451a-8db8-119f21a69c41" CvTextArea="345, 264, 80, 11" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 264, 79, 11" ElementType="Text" Guid="1a8cfb07-ab83-46de-a79a-4c957ebb5e09" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                    <uix:Target CVScreenId="9b04b599-de64-451a-8db8-119f21a69c41" CvTextArea="390, 243, 34, 10" CvTextArgument="Fecha:" CvType="Text" DesignTimeRectangle="391, 243, 33, 10" ElementType="Text" Guid="8cd2df88-7655-423b-ba20-29f10dd371d6" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                    <uix:Target CVScreenId="9b04b599-de64-451a-8db8-119f21a69c41" CvTextArea="518, 264, 22, 11" CvTextArgument="Ref:" CvType="Text" DesignTimeRectangle="519, 264, 21, 11" ElementType="Text" Guid="f36f9d3f-cb47-41f7-8c13-c23ffe6c2358" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NClick.Target>
+                                            <uix:NClick.VerifyOptions>
+                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionOptions.Retry>
+                                                <uix:VerifyExecutionOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionOptions.Timeout>
+                                              </uix:VerifyExecutionOptions>
+                                            </uix:NClick.VerifyOptions>
+                                          </uix:NClick>
                                           <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Clientes...'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1184,57" sap2010:WorkflowViewState.IdRef="NClick_519" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
                                             <uix:NClick.Target>
                                               <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="29bf7092-7c33-4949-a347-873e2afb71ea" CvTextArea="651, 285, 52, 12" CvTextArgument="Clientes..." CvType="Text" DesignTimeRectangle="651, 285, 52, 12" DesignTimeScaleFactor="1" ElementType="Text" Guid="f950d2b1-76cc-4ca1-8ab3-6a2090f91acc" InformativeScreenshot="85a850c2ba49821ba866a2a62f8d3e29.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3SG9tb0QwUUJBNmxPREFDaEZzT2UxT0hueWw4WXB4S1FoRVRXcGlRV0x6Z1IxVEVYQndwUHpreEVuSUJPN3dqTHdlaXdocUMxcVd3dlcyYnF4VERHMm9NMC9xckxpeWVrYTNDeElFRTRvRHZxcWFTWDNKWHQ3TVdDcS9rT09xeHZhcDlEdTREZEhsQ2QyVjI1OU8wVmRBTWlyZC9YVEsrQXZPSVM0d1R3*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
@@ -2510,6 +2595,32 @@
                                                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
+                                          </uix:NClick>
+                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fecha recaudo'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1184,225" sap2010:WorkflowViewState.IdRef="NClick_826" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
+                                            <uix:NClick.Target>
+                                              <uix:TargetAnchorable BrowserURL="siesaerp01app20.siesacloud.com/software/html5.html" CVScreenId="dca5be6d-4a4b-4085-bc4f-0e35ae13b8ad" ContentHash="6ghZaqrxE0qTbEM-7r2nng" CvElementArea="423, 258, 93, 20" CvType="InputBox" DesignTimeRectangle="423, 259, 92, 20" ElementType="InputBox" Guid="48ad01f8-8d35-4708-9bbd-b3db0cfef614" InformativeScreenshot="82aef0c20a823b2e62b20b28acaaad89.png" IsResponsive="True" Reference="LQi3Th_3VEK_gQHqxSrAOQ/BlEnVZv4akuHCbRhM1VJ3A" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='JTdCd2luZG93LmVuY1Bhc3NXJTNEJTI3QS9oaUU5N20yV2liYmFRZjFJNFVEemVsT1VvVUYxU1ZuRG5ncHE1NXFTNWQ5SjRkZytYc1lzRGtKTWhManJXY2JBTThhWmFkQ0owcHVaN3dMYUVWK3M1Tk5Cb2xabXNidGdUNlB0YUxOMUp6MmltdUwxeURqSkpBTE5TVkt3Y0FyTGhUeUd3QzU1NGZRTmY1dmd0S3crRlA1RU41cWJvMTVrZWx4UDdO*' title='HTML5' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <uix:Target CVScreenId="dca5be6d-4a4b-4085-bc4f-0e35ae13b8ad" CvTextArea="345, 264, 80, 11" CvTextArgument="Fecha recaudo:" CvType="Text" DesignTimeRectangle="346, 264, 79, 11" ElementType="Text" Guid="5dea5660-c1bd-4da7-8cda-a5d334ab8fd3" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                    <uix:Target CVScreenId="dca5be6d-4a4b-4085-bc4f-0e35ae13b8ad" CvTextArea="518, 264, 22, 11" CvTextArgument="Ref:" CvType="Text" DesignTimeRectangle="519, 264, 21, 11" ElementType="Text" Guid="4ce3eb53-c19d-4e83-81da-3f13085b76dc" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                    <uix:Target CVScreenId="dca5be6d-4a4b-4085-bc4f-0e35ae13b8ad" CvTextArea="390, 243, 34, 10" CvTextArgument="Fecha:" CvType="Text" DesignTimeRectangle="391, 243, 33, 10" ElementType="Text" Guid="216d3c85-f8ee-4b57-a64b-931a3e2bebc9" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                                <uix:TargetAnchorable.PointOffset>
+                                                  <uix:PointOffset Position="BottomLeft" X="9" Y="-10" />
+                                                </uix:TargetAnchorable.PointOffset>
+                                              </uix:TargetAnchorable>
+                                            </uix:NClick.Target>
+                                            <uix:NClick.VerifyOptions>
+                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionOptions.Retry>
+                                                <uix:VerifyExecutionOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionOptions.Timeout>
+                                              </uix:VerifyExecutionOptions>
+                                            </uix:NClick.VerifyOptions>
                                           </uix:NClick>
                                           <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Inputbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1184,57" sap2010:WorkflowViewState.IdRef="NClick_520" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8949d898-3eb4-4cc8-ad26-c5cc7ba0c0be" Version="V4">
                                             <uix:NClick.Target>
@@ -2539,7 +2650,7 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </uix:NClick>
-                                          <If Condition="[DateTime.Now.Day &lt;= 5 AndAlso&#xD;&#xA;DateTime.ParseExact(jsonObject(&quot;resultado&quot;)(tamañoArray - 1)(&quot;fecha_recaudo&quot;).ToString, &quot;yyyy-MM-dd&quot;, Nothing).Month = DateTime.Now.AddMonths(-1).Month]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="1184,1640" sap2010:WorkflowViewState.IdRef="If_53">
+                                          <If Condition="[DateTime.Now.Day &lt;= 5 AndAlso&#xA;DateTime.ParseExact(jsonObject(&quot;resultado&quot;)(tamañoArray - 1)(&quot;fecha_recaudo&quot;).ToString, &quot;yyyy-MM-dd&quot;, Nothing).Month = DateTime.Now.AddMonths(-1).Month]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="1184,1640" sap2010:WorkflowViewState.IdRef="If_53">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
